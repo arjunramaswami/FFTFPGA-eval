@@ -1,0 +1,28 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 128^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Iterations         = 2 
+Transpose          = DDR 
+--------------------------------------------
+
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+	Signal to noise ratio on output sample: 139.913940 --> PASSED
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 128^3 
+Precision          = Single
+Direction          = Forward
+PCIe Write         = 2.82ms
+Kernel Execution   = 5.52ms
+PCIe Read          = 4.64ms
+Throughput         = 39.89GFLOPS/s | 3.04 GB/s
