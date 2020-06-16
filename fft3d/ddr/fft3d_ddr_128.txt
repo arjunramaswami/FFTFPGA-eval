@@ -1,0 +1,324 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 128^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Iterations         = 100 
+Transpose          = DDR 
+--------------------------------------------
+
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+	Signal to noise ratio on output sample: 139.901993 --> PASSED
+
+3d FFT Verification Passed 
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 128^3 
+Precision          = Single
+Direction          = Forward
+PCIe Write         = 2.79ms
+Kernel Execution   = 5.49ms
+PCIe Read          = 2.72ms
+Throughput         = 40.10GFLOPS/s | 3.06 GB/s
