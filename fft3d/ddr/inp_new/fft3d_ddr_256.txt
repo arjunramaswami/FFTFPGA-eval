@@ -20,5 +20,6 @@ Precision          = Single
 Direction          = Forward
 PCIe Write         = 21.38ms
 Kernel Execution   = 33.88ms
-PCIe Read          = 42.75ms
+PCIe Read          = 42.76ms
 Throughput         = 59.42GFLOPS/s | 3.96 GB/s
+Avg API runtime    = 99.18ms

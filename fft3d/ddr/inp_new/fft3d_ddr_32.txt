@@ -21,4 +21,5 @@ Direction          = Forward
 PCIe Write         = 0.11ms
 Kernel Execution   = 0.40ms
 PCIe Read          = 0.13ms
-Throughput         = 6.17GFLOPS/s | 0.66 GB/s
+Throughput         = 6.18GFLOPS/s | 0.66 GB/s
+Avg API runtime    = 0.69ms
