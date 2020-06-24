@@ -1,0 +1,25 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 128^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Iterations         = 100 
+Transpose          = DDR 
+--------------------------------------------
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 128^3 
+Precision          = Single
+Direction          = Forward
+PCIe Write         = 2.78ms
+Kernel Execution   = 5.82ms
+PCIe Read          = 2.76ms
+Throughput         = 37.86GFLOPS/s | 2.88 GB/s
+Avg API runtime    = 11.44ms
