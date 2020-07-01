@@ -1,0 +1,31 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 256^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Iterations         = 1 
+Transpose          = DDR 
+--------------------------------------------
+
+Initialized BSP
+SVM capabilities: 1, size 4 
+Supports SVM 
+Initialized BSP
+
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 256^3 
+Precision          = Single
+Direction          = Forward
+PCIe Write         = 0.00ms
+Kernel Execution   = 98.75ms
+PCIe Read          = 0.00ms
+Throughput         = 20.39GFLOPS/s | 1.36 GB/s
+Avg API runtime    = 360.07ms
