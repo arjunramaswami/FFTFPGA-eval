@@ -1,0 +1,129 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 32^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Iterations         = 100 
+Transpose          = DDR 
+--------------------------------------------
+
+Initialized BSP
+SVM capabilities: 1, size 4 
+Supports SVM 
+Initialized BSP
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+Verifying second half
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 32^3 
+Precision          = Single
+Direction          = Forward
+PCIe Write         = 0.00ms
+Kernel Execution   = 1.38ms
+PCIe Read          = 0.00ms
+Throughput         = 1.79GFLOPS/s | 0.19 GB/s
+Avg API runtime    = 13.09ms
