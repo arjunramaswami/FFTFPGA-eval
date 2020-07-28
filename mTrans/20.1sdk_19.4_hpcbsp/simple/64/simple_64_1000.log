@@ -1,0 +1,18 @@
+------------------------------
+Matrix Size : 64 64
+Number of matrices : 1000 
+------------------------------
+
+Creating data 
+Computing Matrix Transposition
+Path to Binary : ../transpose_kernel/fpgabitstream/../fpgabitstream/transpose/synthesis_sp/synthesis/syn6/transpose.aocx
+FPGA Runtime = 11.6234ms
+
+Computing Matrix Transposition
+
+Checking Correctness
+-> Signal to noise ratio on output sample: inf --> PASSED
+
+
+Cleaning up
+

@@ -1,0 +1,29 @@
+
+------------------------------------------
+Matrix Transpose Configuration: 
+--------------------------------------------
+Type               = Single Precision Complex 2d Matrix Transpose
+Points             = [256 x 256] 
+# Batched Transposes  = 100 
+ PCIe Transfer 
+Path to Single Work Item kernel = syn_256_matrixTranspose/matrixTranspose.aocx 
+--------------------------------------------
+
+Creating data 
+Transposing Matrix
+
+Computing Matrix Transposition
+
+Checking Correctness
+-> Signal to noise ratio on output sample: inf --> PASSED
+
+
+------------------------------------------
+Average Measurements of Matrix Transpose
+--------------------------------------------
+Points             = [256 x 256]
+PCIe Write         = 8.53ms
+Batch Kernel Execution  = 3.31ms
+Kernel Execution   = 0.03ms
+PCIe Write         = 16.56ms
+Throughput         = 15.82 GB/s
