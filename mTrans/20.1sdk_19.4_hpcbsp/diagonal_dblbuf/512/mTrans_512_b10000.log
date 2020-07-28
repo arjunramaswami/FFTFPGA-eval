@@ -1,0 +1,16 @@
+
+------------------------------------------
+Matrix Transpose Configuration: 
+--------------------------------------------
+Type               = Single Precision Complex 2d Matrix Transpose
+Points             = [512 x 512] 
+# Batched Transposes  = 10000 
+ PCIe Transfer 
+Path to Single Work Item kernel = syn_512_matrixTranspose/matrixTranspose.aocx 
+--------------------------------------------
+
+Creating data 
+Transposing Matrix
+ERROR: 
+Error Location: /upb/scratch/departments/pc2/groups/pc2-mitarbeiter/arjunr/opencl/matrixTranspose/2dTranspose/master/api/src/transpose_fpga.c:214:mTranspose
+Failed to launch store kernel
