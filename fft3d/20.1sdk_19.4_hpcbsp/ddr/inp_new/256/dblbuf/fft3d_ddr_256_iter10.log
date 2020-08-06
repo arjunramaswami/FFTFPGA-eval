@@ -1,0 +1,156 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 256^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 1 
+Iterations         = 10 
+Transpose          = DDR 
+--------------------------------------------
+
+MMD INFO : Disabling SmartVID (fix) polling
+MMD INFO : [aclbitt_s10_pcie0] Quartus versions for base and import compile do not match
+MMD INFO : [aclbitt_s10_pcie0] Board is currently programmed with sof from Quartus 19.4.0 64
+MMD INFO : [aclbitt_s10_pcie0] PR import was compiled with Quartus 19.2.0 57
+MMD INFO : Enabling SmartVID (fix) polling
+MMD INFO : [aclbitt_s10_pcie0] Reprogram the device with data saving and restoring
+MMD INFO : [aclbitt_s10_pcie0] Trying Partial Reconfiguration
+MMD INFO : Disabling SmartVID (fix) polling
+MMD INFO : [aclbitt_s10_pcie0] Quartus versions for base and import compile do not match
+MMD INFO : [aclbitt_s10_pcie0] Board is currently programmed with sof from Quartus 19.4.0 64
+MMD INFO : [aclbitt_s10_pcie0] PR import was compiled with Quartus 19.2.0 57
+MMD INFO : Enabling SmartVID (fix) polling
+MMD INFO : [aclbitt_s10_pcie0] Trying Full-Chip Reconfiguration (JTAG)
+MMD INFO : JTAG Autodetect device found Cable:1 , Device Index:1
+MMD INFO : Disabling SmartVID (fix) polling
+MMD INFO : setting Cable to autodetect value 1 
+MMD INFO : setting Device Index to autodetect value 1
+MMD INFO : executing "quartus_pgm -c 1  -m jtag -o "P;reprogram_temp.sof@1""
+Warning (19729): Current CMF data structure hash (0xA2C420AC) is older version than latest CMF data structure but still allowable.
+This might be transition period. You should update your CMF to latest version with hash { 0x9603E739 } [Add operation to send JTAG ID to LSM]
+Info (19848): Regular SEU info => 105 sector(s), 8 thread(s), 25200 interval time in microsecond(s)
+Info (19848): IO hash is 20D79965DFDEC818B3AEAA9DF6CC8DF962DDE5D4AEFD188C86C681B780E8A873
+Info (19848): Design hash is 3DC04022FE288D9D0DF448623A00F93B019BFDCBFC0A8D565F44B0AC1649A168
+Info (19848): IO hash is 20D79965DFDEC818B3AEAA9DF6CC8DF962DDE5D4AEFD188C86C681B780E8A873
+Info: *******************************************************************
+Info: Running Quartus Prime Programmer
+    Info: Version 19.4.0 Build 64 12/04/2019 SC Pro Edition
+    Info: Copyright (C) 2019  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Thu Aug  6 18:57:50 2020
+    Info: System process ID: 61719
+Info: Command: quartus_pgm -c 1 -m jtag -o P;reprogram_temp.sof@1
+Info (213045): Using programming cable "S10 520 card [1-8.2]"
+Info (213011): Using programming file reprogram_temp.sof with checksum 0x5C8C1E8F for device 1SG280LN2F43@1
+Info (209060): Started Programmer operation at Thu Aug  6 18:58:05 2020
+Info (18942): Configuring device index 1
+Info (18943): Configuration succeeded at device index 1
+Info (209011): Successfully performed operation(s)
+Info (209061): Ended Programmer operation at Thu Aug  6 18:58:14 2020
+Info: Quartus Prime Programmer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 3463 megabytes
+    Info: Processing ended: Thu Aug  6 18:58:14 2020
+    Info: Elapsed time: 00:00:24
+    Info: System process ID: 61719
+MMD INFO : Enabling SmartVID (fix) polling
+
+
+Iter: 0
+	PCIe Rd: 42.748644ms
+	Kernel: 18.835242ms
+	PCIe Wr: 21.494149ms
+
+
+
+Iter: 1
+	PCIe Rd: 42.675991ms
+	Kernel: 19.279605ms
+	PCIe Wr: 21.467061ms
+
+
+
+Iter: 2
+	PCIe Rd: 42.700647ms
+	Kernel: 18.832017ms
+	PCIe Wr: 21.450958ms
+
+
+
+Iter: 3
+	PCIe Rd: 42.657163ms
+	Kernel: 18.831673ms
+	PCIe Wr: 21.427841ms
+
+
+
+Iter: 4
+	PCIe Rd: 42.620823ms
+	Kernel: 18.840708ms
+	PCIe Wr: 21.445690ms
+
+
+
+Iter: 5
+	PCIe Rd: 42.649047ms
+	Kernel: 18.833955ms
+	PCIe Wr: 21.456884ms
+
+
+
+Iter: 6
+	PCIe Rd: 42.655290ms
+	Kernel: 18.836987ms
+	PCIe Wr: 21.427869ms
+
+
+
+Iter: 7
+	PCIe Rd: 42.634408ms
+	Kernel: 18.841882ms
+	PCIe Wr: 21.398764ms
+
+
+
+Iter: 8
+	PCIe Rd: 42.636233ms
+	Kernel: 18.826684ms
+	PCIe Wr: 21.479927ms
+
+
+
+Iter: 9
+	PCIe Rd: 42.663480ms
+	Kernel: 18.825523ms
+	PCIe Wr: 21.448331ms
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 256^3 
+Precision          = Single
+Direction          = Forward
+Iterations         = 10
+Average Measurements
+PCIe Write         = 21.45ms
+Kernel Execution   = 18.88ms
+PCIe Read          = 42.66ms
+Total              = 82.99ms
+Throughput         = 106.64GFLOPS/s | 7.11 GB/s
+API runtime        = 85.11ms

@@ -1,0 +1,43 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 256^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 1 
+Iterations         = 2 
+Transpose          = DDR 
+--------------------------------------------
+
+
+
+Iter: 0
+	PCIe Rd: 42.555339ms
+	Kernel: 18.849441ms
+	PCIe Wr: 21.519247ms
+
+
+
+Iter: 1
+	PCIe Rd: 42.563386ms
+	Kernel: 19.296440ms
+	PCIe Wr: 21.512025ms
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 256^3 
+Precision          = Single
+Direction          = Forward
+Iterations         = 2
+Average Measurements
+PCIe Write         = 21.52ms
+Kernel Execution   = 19.07ms
+PCIe Read          = 42.56ms
+Total              = 83.15ms
+Throughput         = 105.56GFLOPS/s | 7.04 GB/s
+API runtime        = 85.91ms
