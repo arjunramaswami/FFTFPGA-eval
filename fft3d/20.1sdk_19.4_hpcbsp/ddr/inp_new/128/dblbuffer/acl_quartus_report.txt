@@ -1,0 +1,12 @@
+ALUTs: 195554
+Registers: 532,205
+Logic utilization: 251,433 / 933,120 ( 27 % )
+I/O pins: 561 / 912 ( 62 % )
+DSP blocks: 552 / 5,760 ( 10 % )
+Memory bits: 14,746,840 / 240,046,080 ( 6 % )
+RAM blocks: 1,286 / 11,721 ( 11 % )
+Actual clock freq: 426.666666667
+Kernel fmax: 427.35
+1x clock fmax: 427.35
+2x clock fmax: Unused
+Highest non-global fanout: 92186

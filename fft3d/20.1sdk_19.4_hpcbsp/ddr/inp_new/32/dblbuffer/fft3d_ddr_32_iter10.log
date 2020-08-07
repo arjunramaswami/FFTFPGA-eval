@@ -1,0 +1,99 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 32^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 1 
+Iterations         = 10 
+Transpose          = DDR 
+--------------------------------------------
+
+
+
+Iter: 0
+	PCIe Rd: 0.202203ms
+	Kernel: 0.311498ms
+	PCIe Wr: 0.198071ms
+
+
+
+Iter: 1
+	PCIe Rd: 0.197951ms
+	Kernel: 0.285691ms
+	PCIe Wr: 0.149216ms
+
+
+
+Iter: 2
+	PCIe Rd: 0.113932ms
+	Kernel: 0.275114ms
+	PCIe Wr: 0.129021ms
+
+
+
+Iter: 3
+	PCIe Rd: 0.119359ms
+	Kernel: 0.272850ms
+	PCIe Wr: 0.132192ms
+
+
+
+Iter: 4
+	PCIe Rd: 0.113287ms
+	Kernel: 0.277952ms
+	PCIe Wr: 0.125668ms
+
+
+
+Iter: 5
+	PCIe Rd: 0.118015ms
+	Kernel: 0.277943ms
+	PCIe Wr: 0.131397ms
+
+
+
+Iter: 6
+	PCIe Rd: 0.112980ms
+	Kernel: 0.272014ms
+	PCIe Wr: 0.128905ms
+
+
+
+Iter: 7
+	PCIe Rd: 0.118027ms
+	Kernel: 0.272622ms
+	PCIe Wr: 0.133943ms
+
+
+
+Iter: 8
+	PCIe Rd: 0.112273ms
+	Kernel: 0.274144ms
+	PCIe Wr: 0.124566ms
+
+
+
+Iter: 9
+	PCIe Rd: 0.123020ms
+	Kernel: 0.272818ms
+	PCIe Wr: 0.131841ms
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 32^3 
+Precision          = Single
+Direction          = Forward
+Iterations         = 10
+Average Measurements
+PCIe Write         = 0.14ms
+Kernel Execution   = 0.28ms
+PCIe Read          = 0.13ms
+Total              = 0.55ms
+Throughput         = 8.80GFLOPS/s | 0.94 GB/s
+API runtime        = 0.60ms
