@@ -1,0 +1,29 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 512^2 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 1 
+Iterations         = 512 
+Transpose          = BRAM 
+--------------------------------------------
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 512^2 
+Precision          = Single
+Direction          = Forward
+Iterations         = 512
+Average Measurements
+PCIe Write         = 0.46ms
+Kernel Execution   = 0.40ms
+PCIe Read          = 0.69ms
+Total              = 1.54ms
+Throughput         = 58.90GFLOPS/s | 5.24 GB/s
+API runtime        = 1.59ms
