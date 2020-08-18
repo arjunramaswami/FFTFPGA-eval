@@ -1,0 +1,35 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 128^2 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 1 
+Iterations         = 1 
+Transpose          = BRAM 
+--------------------------------------------
+
+MMD INFO : Disabling SmartVID (fix) polling
+MMD INFO : Enabling SmartVID (fix) polling
+Iter: 0
+	PCIe Rd: 0.137739ms
+	Kernel: 0.189909ms
+	PCIe Wr: 0.155993ms
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 128^2 
+Precision          = Single
+Direction          = Forward
+Iterations         = 1
+PCIe Write         = 0.16ms
+Kernel Execution   = 0.19ms
+PCIe Read          = 0.14ms
+Total              = 0.48ms
+Throughput         = 6.04GFLOPS/s | 0.69 GB/s
+API runtime        = 0.58ms
