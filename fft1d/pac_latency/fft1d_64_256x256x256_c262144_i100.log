@@ -1,0 +1,536 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 64 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 262144 
+Iterations         = 100 
+Transpose          = DDR 
+Interleaving       = No 
+--------------------------------------------
+
+Num of Platforms found - 2
+  0 - intel(r) fpga emulation platform for opencl(tm) 
+  1 - intel(r) fpga sdk for opencl(tm) 
+Supports SVM 
+Iter: 0
+	PCIe Rd: 0.000000ms
+	Kernel: 11.590611ms
+	PCIe Wr: 0.000000ms
+
+Iter: 1
+	PCIe Rd: 0.000000ms
+	Kernel: 11.569790ms
+	PCIe Wr: 0.000000ms
+
+Iter: 2
+	PCIe Rd: 0.000000ms
+	Kernel: 11.565126ms
+	PCIe Wr: 0.000000ms
+
+Iter: 3
+	PCIe Rd: 0.000000ms
+	Kernel: 11.581224ms
+	PCIe Wr: 0.000000ms
+
+Iter: 4
+	PCIe Rd: 0.000000ms
+	Kernel: 11.589689ms
+	PCIe Wr: 0.000000ms
+
+Iter: 5
+	PCIe Rd: 0.000000ms
+	Kernel: 11.555828ms
+	PCIe Wr: 0.000000ms
+
+Iter: 6
+	PCIe Rd: 0.000000ms
+	Kernel: 11.557703ms
+	PCIe Wr: 0.000000ms
+
+Iter: 7
+	PCIe Rd: 0.000000ms
+	Kernel: 11.565437ms
+	PCIe Wr: 0.000000ms
+
+Iter: 8
+	PCIe Rd: 0.000000ms
+	Kernel: 11.551396ms
+	PCIe Wr: 0.000000ms
+
+Iter: 9
+	PCIe Rd: 0.000000ms
+	Kernel: 11.556012ms
+	PCIe Wr: 0.000000ms
+
+Iter: 10
+	PCIe Rd: 0.000000ms
+	Kernel: 11.554856ms
+	PCIe Wr: 0.000000ms
+
+Iter: 11
+	PCIe Rd: 0.000000ms
+	Kernel: 11.551732ms
+	PCIe Wr: 0.000000ms
+
+Iter: 12
+	PCIe Rd: 0.000000ms
+	Kernel: 11.566361ms
+	PCIe Wr: 0.000000ms
+
+Iter: 13
+	PCIe Rd: 0.000000ms
+	Kernel: 11.563164ms
+	PCIe Wr: 0.000000ms
+
+Iter: 14
+	PCIe Rd: 0.000000ms
+	Kernel: 11.554458ms
+	PCIe Wr: 0.000000ms
+
+Iter: 15
+	PCIe Rd: 0.000000ms
+	Kernel: 11.555458ms
+	PCIe Wr: 0.000000ms
+
+Iter: 16
+	PCIe Rd: 0.000000ms
+	Kernel: 11.544238ms
+	PCIe Wr: 0.000000ms
+
+Iter: 17
+	PCIe Rd: 0.000000ms
+	Kernel: 11.547057ms
+	PCIe Wr: 0.000000ms
+
+Iter: 18
+	PCIe Rd: 0.000000ms
+	Kernel: 11.557237ms
+	PCIe Wr: 0.000000ms
+
+Iter: 19
+	PCIe Rd: 0.000000ms
+	Kernel: 11.549718ms
+	PCIe Wr: 0.000000ms
+
+Iter: 20
+	PCIe Rd: 0.000000ms
+	Kernel: 11.551215ms
+	PCIe Wr: 0.000000ms
+
+Iter: 21
+	PCIe Rd: 0.000000ms
+	Kernel: 11.553769ms
+	PCIe Wr: 0.000000ms
+
+Iter: 22
+	PCIe Rd: 0.000000ms
+	Kernel: 11.549949ms
+	PCIe Wr: 0.000000ms
+
+Iter: 23
+	PCIe Rd: 0.000000ms
+	Kernel: 11.550333ms
+	PCIe Wr: 0.000000ms
+
+Iter: 24
+	PCIe Rd: 0.000000ms
+	Kernel: 11.552186ms
+	PCIe Wr: 0.000000ms
+
+Iter: 25
+	PCIe Rd: 0.000000ms
+	Kernel: 11.556924ms
+	PCIe Wr: 0.000000ms
+
+Iter: 26
+	PCIe Rd: 0.000000ms
+	Kernel: 11.560512ms
+	PCIe Wr: 0.000000ms
+
+Iter: 27
+	PCIe Rd: 0.000000ms
+	Kernel: 11.554453ms
+	PCIe Wr: 0.000000ms
+
+Iter: 28
+	PCIe Rd: 0.000000ms
+	Kernel: 11.548780ms
+	PCIe Wr: 0.000000ms
+
+Iter: 29
+	PCIe Rd: 0.000000ms
+	Kernel: 11.548876ms
+	PCIe Wr: 0.000000ms
+
+Iter: 30
+	PCIe Rd: 0.000000ms
+	Kernel: 11.543468ms
+	PCIe Wr: 0.000000ms
+
+Iter: 31
+	PCIe Rd: 0.000000ms
+	Kernel: 11.593960ms
+	PCIe Wr: 0.000000ms
+
+Iter: 32
+	PCIe Rd: 0.000000ms
+	Kernel: 11.575480ms
+	PCIe Wr: 0.000000ms
+
+Iter: 33
+	PCIe Rd: 0.000000ms
+	Kernel: 11.557162ms
+	PCIe Wr: 0.000000ms
+
+Iter: 34
+	PCIe Rd: 0.000000ms
+	Kernel: 11.557032ms
+	PCIe Wr: 0.000000ms
+
+Iter: 35
+	PCIe Rd: 0.000000ms
+	Kernel: 11.553884ms
+	PCIe Wr: 0.000000ms
+
+Iter: 36
+	PCIe Rd: 0.000000ms
+	Kernel: 11.557272ms
+	PCIe Wr: 0.000000ms
+
+Iter: 37
+	PCIe Rd: 0.000000ms
+	Kernel: 11.571368ms
+	PCIe Wr: 0.000000ms
+
+Iter: 38
+	PCIe Rd: 0.000000ms
+	Kernel: 11.558154ms
+	PCIe Wr: 0.000000ms
+
+Iter: 39
+	PCIe Rd: 0.000000ms
+	Kernel: 11.567667ms
+	PCIe Wr: 0.000000ms
+
+Iter: 40
+	PCIe Rd: 0.000000ms
+	Kernel: 11.580938ms
+	PCIe Wr: 0.000000ms
+
+Iter: 41
+	PCIe Rd: 0.000000ms
+	Kernel: 11.575209ms
+	PCIe Wr: 0.000000ms
+
+Iter: 42
+	PCIe Rd: 0.000000ms
+	Kernel: 11.555650ms
+	PCIe Wr: 0.000000ms
+
+Iter: 43
+	PCIe Rd: 0.000000ms
+	Kernel: 11.553609ms
+	PCIe Wr: 0.000000ms
+
+Iter: 44
+	PCIe Rd: 0.000000ms
+	Kernel: 11.563085ms
+	PCIe Wr: 0.000000ms
+
+Iter: 45
+	PCIe Rd: 0.000000ms
+	Kernel: 11.556884ms
+	PCIe Wr: 0.000000ms
+
+Iter: 46
+	PCIe Rd: 0.000000ms
+	Kernel: 11.579256ms
+	PCIe Wr: 0.000000ms
+
+Iter: 47
+	PCIe Rd: 0.000000ms
+	Kernel: 11.555176ms
+	PCIe Wr: 0.000000ms
+
+Iter: 48
+	PCIe Rd: 0.000000ms
+	Kernel: 11.553209ms
+	PCIe Wr: 0.000000ms
+
+Iter: 49
+	PCIe Rd: 0.000000ms
+	Kernel: 11.556073ms
+	PCIe Wr: 0.000000ms
+
+Iter: 50
+	PCIe Rd: 0.000000ms
+	Kernel: 11.546916ms
+	PCIe Wr: 0.000000ms
+
+Iter: 51
+	PCIe Rd: 0.000000ms
+	Kernel: 11.578688ms
+	PCIe Wr: 0.000000ms
+
+Iter: 52
+	PCIe Rd: 0.000000ms
+	Kernel: 11.568124ms
+	PCIe Wr: 0.000000ms
+
+Iter: 53
+	PCIe Rd: 0.000000ms
+	Kernel: 11.550915ms
+	PCIe Wr: 0.000000ms
+
+Iter: 54
+	PCIe Rd: 0.000000ms
+	Kernel: 11.554027ms
+	PCIe Wr: 0.000000ms
+
+Iter: 55
+	PCIe Rd: 0.000000ms
+	Kernel: 11.547918ms
+	PCIe Wr: 0.000000ms
+
+Iter: 56
+	PCIe Rd: 0.000000ms
+	Kernel: 11.551040ms
+	PCIe Wr: 0.000000ms
+
+Iter: 57
+	PCIe Rd: 0.000000ms
+	Kernel: 11.575771ms
+	PCIe Wr: 0.000000ms
+
+Iter: 58
+	PCIe Rd: 0.000000ms
+	Kernel: 11.571607ms
+	PCIe Wr: 0.000000ms
+
+Iter: 59
+	PCIe Rd: 0.000000ms
+	Kernel: 11.583967ms
+	PCIe Wr: 0.000000ms
+
+Iter: 60
+	PCIe Rd: 0.000000ms
+	Kernel: 11.583766ms
+	PCIe Wr: 0.000000ms
+
+Iter: 61
+	PCIe Rd: 0.000000ms
+	Kernel: 11.573522ms
+	PCIe Wr: 0.000000ms
+
+Iter: 62
+	PCIe Rd: 0.000000ms
+	Kernel: 11.552963ms
+	PCIe Wr: 0.000000ms
+
+Iter: 63
+	PCIe Rd: 0.000000ms
+	Kernel: 11.554223ms
+	PCIe Wr: 0.000000ms
+
+Iter: 64
+	PCIe Rd: 0.000000ms
+	Kernel: 11.560657ms
+	PCIe Wr: 0.000000ms
+
+Iter: 65
+	PCIe Rd: 0.000000ms
+	Kernel: 11.556810ms
+	PCIe Wr: 0.000000ms
+
+Iter: 66
+	PCIe Rd: 0.000000ms
+	Kernel: 11.558029ms
+	PCIe Wr: 0.000000ms
+
+Iter: 67
+	PCIe Rd: 0.000000ms
+	Kernel: 11.557959ms
+	PCIe Wr: 0.000000ms
+
+Iter: 68
+	PCIe Rd: 0.000000ms
+	Kernel: 11.549154ms
+	PCIe Wr: 0.000000ms
+
+Iter: 69
+	PCIe Rd: 0.000000ms
+	Kernel: 11.578279ms
+	PCIe Wr: 0.000000ms
+
+Iter: 70
+	PCIe Rd: 0.000000ms
+	Kernel: 11.568402ms
+	PCIe Wr: 0.000000ms
+
+Iter: 71
+	PCIe Rd: 0.000000ms
+	Kernel: 11.552014ms
+	PCIe Wr: 0.000000ms
+
+Iter: 72
+	PCIe Rd: 0.000000ms
+	Kernel: 11.558734ms
+	PCIe Wr: 0.000000ms
+
+Iter: 73
+	PCIe Rd: 0.000000ms
+	Kernel: 11.555179ms
+	PCIe Wr: 0.000000ms
+
+Iter: 74
+	PCIe Rd: 0.000000ms
+	Kernel: 11.552771ms
+	PCIe Wr: 0.000000ms
+
+Iter: 75
+	PCIe Rd: 0.000000ms
+	Kernel: 11.565597ms
+	PCIe Wr: 0.000000ms
+
+Iter: 76
+	PCIe Rd: 0.000000ms
+	Kernel: 11.576792ms
+	PCIe Wr: 0.000000ms
+
+Iter: 77
+	PCIe Rd: 0.000000ms
+	Kernel: 11.577513ms
+	PCIe Wr: 0.000000ms
+
+Iter: 78
+	PCIe Rd: 0.000000ms
+	Kernel: 11.555344ms
+	PCIe Wr: 0.000000ms
+
+Iter: 79
+	PCIe Rd: 0.000000ms
+	Kernel: 11.566636ms
+	PCIe Wr: 0.000000ms
+
+Iter: 80
+	PCIe Rd: 0.000000ms
+	Kernel: 11.579067ms
+	PCIe Wr: 0.000000ms
+
+Iter: 81
+	PCIe Rd: 0.000000ms
+	Kernel: 11.581378ms
+	PCIe Wr: 0.000000ms
+
+Iter: 82
+	PCIe Rd: 0.000000ms
+	Kernel: 11.549721ms
+	PCIe Wr: 0.000000ms
+
+Iter: 83
+	PCIe Rd: 0.000000ms
+	Kernel: 11.581921ms
+	PCIe Wr: 0.000000ms
+
+Iter: 84
+	PCIe Rd: 0.000000ms
+	Kernel: 11.551236ms
+	PCIe Wr: 0.000000ms
+
+Iter: 85
+	PCIe Rd: 0.000000ms
+	Kernel: 11.548188ms
+	PCIe Wr: 0.000000ms
+
+Iter: 86
+	PCIe Rd: 0.000000ms
+	Kernel: 11.560653ms
+	PCIe Wr: 0.000000ms
+
+Iter: 87
+	PCIe Rd: 0.000000ms
+	Kernel: 11.551732ms
+	PCIe Wr: 0.000000ms
+
+Iter: 88
+	PCIe Rd: 0.000000ms
+	Kernel: 11.544917ms
+	PCIe Wr: 0.000000ms
+
+Iter: 89
+	PCIe Rd: 0.000000ms
+	Kernel: 11.573855ms
+	PCIe Wr: 0.000000ms
+
+Iter: 90
+	PCIe Rd: 0.000000ms
+	Kernel: 11.548006ms
+	PCIe Wr: 0.000000ms
+
+Iter: 91
+	PCIe Rd: 0.000000ms
+	Kernel: 11.548152ms
+	PCIe Wr: 0.000000ms
+
+Iter: 92
+	PCIe Rd: 0.000000ms
+	Kernel: 11.547213ms
+	PCIe Wr: 0.000000ms
+
+Iter: 93
+	PCIe Rd: 0.000000ms
+	Kernel: 11.545916ms
+	PCIe Wr: 0.000000ms
+
+Iter: 94
+	PCIe Rd: 0.000000ms
+	Kernel: 11.550179ms
+	PCIe Wr: 0.000000ms
+
+Iter: 95
+	PCIe Rd: 0.000000ms
+	Kernel: 11.556551ms
+	PCIe Wr: 0.000000ms
+
+Iter: 96
+	PCIe Rd: 0.000000ms
+	Kernel: 11.559949ms
+	PCIe Wr: 0.000000ms
+
+Iter: 97
+	PCIe Rd: 0.000000ms
+	Kernel: 11.557575ms
+	PCIe Wr: 0.000000ms
+
+Iter: 98
+	PCIe Rd: 0.000000ms
+	Kernel: 11.567294ms
+	PCIe Wr: 0.000000ms
+
+Iter: 99
+	PCIe Rd: 0.000000ms
+	Kernel: 11.606653ms
+	PCIe Wr: 0.000000ms
+
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points             = 64 
+Precision          = Single
+Direction          = Forward
+Iterations         = 100
+Batch              = 262144
+Average Measurements of iterations
+PCIe Write         = 0.0000ms
+Kernel Execution   = 11.5611ms
+PCIe Read          = 0.0000ms
+Total              = 11.5611ms
+Throughput         = 40.5454GFLOPS/s | 10.8121 GB/s
+API runtime        = 301.9002ms
