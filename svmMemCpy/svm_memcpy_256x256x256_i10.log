@@ -1,0 +1,86 @@
+
+------------------------------------------
+Test Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 16777216
+Batch              = 1
+Iterations         = 10
+Interleaving       = No
+--------------------------------------------
+
+Supports SVM 
+No Batch
+Iter: 0
+	PCIe Rd: 0.000000ms
+	Kernel: 21.188131ms
+	PCIe Wr: 0.000000ms
+
+No Batch
+Iter: 1
+	PCIe Rd: 0.000000ms
+	Kernel: 21.199939ms
+	PCIe Wr: 0.000000ms
+
+No Batch
+Iter: 2
+	PCIe Rd: 0.000000ms
+	Kernel: 21.204554ms
+	PCIe Wr: 0.000000ms
+
+No Batch
+Iter: 3
+	PCIe Rd: 0.000000ms
+	Kernel: 21.195445ms
+	PCIe Wr: 0.000000ms
+
+No Batch
+Iter: 4
+	PCIe Rd: 0.000000ms
+	Kernel: 21.145925ms
+	PCIe Wr: 0.000000ms
+
+No Batch
+Iter: 5
+	PCIe Rd: 0.000000ms
+	Kernel: 21.194591ms
+	PCIe Wr: 0.000000ms
+
+No Batch
+Iter: 6
+	PCIe Rd: 0.000000ms
+	Kernel: 21.199040ms
+	PCIe Wr: 0.000000ms
+
+No Batch
+Iter: 7
+	PCIe Rd: 0.000000ms
+	Kernel: 21.198644ms
+	PCIe Wr: 0.000000ms
+
+No Batch
+Iter: 8
+	PCIe Rd: 0.000000ms
+	Kernel: 21.158997ms
+	PCIe Wr: 0.000000ms
+
+No Batch
+Iter: 9
+	PCIe Rd: 0.000000ms
+	Kernel: 21.203354ms
+	PCIe Wr: 0.000000ms
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Iterations             = 10
+Points                 = 16777216
+Data Size              = 134217728 Bytes
+PCIe Write Latency     = 0.00000ms
+PCIe Read Latency      = 0.00000ms
+PCIe Write Bandwidth   = inf GB/s
+PCIe Read Bandwidth    = inf GB/s
+Average Exec Time      = 21.18886ms
+Average Eff Exec Time  = 21.18886ms
+Average API Time       = 197.81835ms
