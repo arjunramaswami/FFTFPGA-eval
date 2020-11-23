@@ -1,0 +1,38 @@
+
+------------------------------------------
+Test Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 2097152
+Batch              = 10
+Iterations         = 2
+Interleaving       = Yes
+--------------------------------------------
+
+Supports SVM 
+Batch
+Iter: 0
+	PCIe Rd: 0.000000ms
+	Kernel: 24.807047ms
+	PCIe Wr: 0.000000ms
+
+Batch
+Iter: 1
+	PCIe Rd: 0.000000ms
+	Kernel: 24.477306ms
+	PCIe Wr: 0.000000ms
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Iterations             = 2
+Points                 = 2097152
+Data Size              = 16777216 Bytes
+PCIe Write Latency     = 0.00000ms
+PCIe Read Latency      = 0.00000ms
+PCIe Write Bandwidth   = inf GB/s
+PCIe Read Bandwidth    = inf GB/s
+Average Exec Time      = 24.64218ms
+Average Eff Exec Time  = 2.46422ms
+Average API Time       = 269.02211ms
