@@ -1,0 +1,190 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 512^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 1 
+Iterations         = 10 
+Transpose          = DDR 
+Interleaving       = No 
+--------------------------------------------
+
+Num of Platforms found - 2
+  0 - intel(r) fpga emulation platform for opencl(tm) 
+  1 - intel(r) fpga sdk for opencl(tm) 
+Supports SVM 
+Time to Create Data: 5.340262sec for 1024MB
+
+SVM Buffer Copy In Time: 636.717674ms
+SVM Buffer Copy Out Time: 403.759639ms
+
+Iter: 0
+	PCIe Rd: 0.000000ms
+	Kernel: 168.932107ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.851997ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 5.138195sec for 1024MB
+
+SVM Buffer Copy In Time: 636.746726ms
+SVM Buffer Copy Out Time: 204.133551ms
+
+Iter: 1
+	PCIe Rd: 0.000000ms
+	Kernel: 168.902608ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.842766ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 5.137720sec for 1024MB
+
+SVM Buffer Copy In Time: 637.093970ms
+SVM Buffer Copy Out Time: 204.261946ms
+
+Iter: 2
+	PCIe Rd: 0.000000ms
+	Kernel: 168.886701ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.826439ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 5.137663sec for 1024MB
+
+SVM Buffer Copy In Time: 637.510833ms
+SVM Buffer Copy Out Time: 203.666176ms
+
+Iter: 3
+	PCIe Rd: 0.000000ms
+	Kernel: 168.894893ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.834955ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 5.137875sec for 1024MB
+
+SVM Buffer Copy In Time: 636.945961ms
+SVM Buffer Copy Out Time: 203.414177ms
+
+Iter: 4
+	PCIe Rd: 0.000000ms
+	Kernel: 168.869969ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.809183ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 5.137832sec for 1024MB
+
+SVM Buffer Copy In Time: 636.950138ms
+SVM Buffer Copy Out Time: 202.961680ms
+
+Iter: 5
+	PCIe Rd: 0.000000ms
+	Kernel: 168.899416ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.838541ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 5.137602sec for 1024MB
+
+SVM Buffer Copy In Time: 636.593967ms
+SVM Buffer Copy Out Time: 203.004819ms
+
+Iter: 6
+	PCIe Rd: 0.000000ms
+	Kernel: 168.926926ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.867250ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 5.138016sec for 1024MB
+
+SVM Buffer Copy In Time: 636.757792ms
+SVM Buffer Copy Out Time: 203.308549ms
+
+Iter: 7
+	PCIe Rd: 0.000000ms
+	Kernel: 168.908813ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.847859ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 5.142999sec for 1024MB
+
+SVM Buffer Copy In Time: 637.231659ms
+SVM Buffer Copy Out Time: 204.249095ms
+
+Iter: 8
+	PCIe Rd: 0.000000ms
+	Kernel: 168.884159ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.820787ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 5.137675sec for 1024MB
+
+SVM Buffer Copy In Time: 637.900883ms
+SVM Buffer Copy Out Time: 203.934472ms
+
+Iter: 9
+	PCIe Rd: 0.000000ms
+	Kernel: 168.883430ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 168.822660ms
+	HW PCIe Wr: 0.000000ms
+
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points               = 512^3 
+Precision            = Single
+Direction            = Forward
+Iterations           = 10
+Batch                = 1
+Average Measurements of iterations
+PCIe Write           = 0.0000ms
+Kernel Execution     = 168.8989ms
+PCIe Read            = 0.0000ms
+Total                = 168.8989ms
+HW PCIe Write        = 0.0000ms
+HW Kernel Execution  = 168.8362ms
+HW PCIe Read         = 0.0000ms
+Hw Total             = 168.8362ms
+Throughput           = 99.9118GFLOPS/s | 5.9229 GB/s
+API runtime          = 2074.7812ms
