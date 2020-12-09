@@ -1,0 +1,1540 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 256^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 1 
+Iterations         = 100 
+Transpose          = DDR 
+Interleaving       = No 
+--------------------------------------------
+
+Num of Platforms found - 3
+  0 - intel(r) fpga emulation platform for opencl(tm) 
+  1 - intel(r) fpga sdk for opencl(tm) 
+Supports SVM 
+Time to Create Data: 0.665681sec for 128MB
+
+SVM Buffer Copy In Time: 78.970161ms
+SVM Buffer Copy Out Time: 49.753959ms
+
+Iter: 0
+	PCIe Rd: 0.000000ms
+	Kernel: 21.619259ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.222265ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642490sec for 128MB
+
+SVM Buffer Copy In Time: 78.749294ms
+SVM Buffer Copy Out Time: 24.993270ms
+
+Iter: 1
+	PCIe Rd: 0.000000ms
+	Kernel: 21.598744ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.211196ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642267sec for 128MB
+
+SVM Buffer Copy In Time: 78.886555ms
+SVM Buffer Copy Out Time: 25.137230ms
+
+Iter: 2
+	PCIe Rd: 0.000000ms
+	Kernel: 21.604937ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.220070ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642238sec for 128MB
+
+SVM Buffer Copy In Time: 78.696569ms
+SVM Buffer Copy Out Time: 25.135806ms
+
+Iter: 3
+	PCIe Rd: 0.000000ms
+	Kernel: 21.606765ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.224273ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642334sec for 128MB
+
+SVM Buffer Copy In Time: 78.921795ms
+SVM Buffer Copy Out Time: 24.955723ms
+
+Iter: 4
+	PCIe Rd: 0.000000ms
+	Kernel: 21.597114ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.220459ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642277sec for 128MB
+
+SVM Buffer Copy In Time: 78.763728ms
+SVM Buffer Copy Out Time: 24.820542ms
+
+Iter: 5
+	PCIe Rd: 0.000000ms
+	Kernel: 21.591511ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216540ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642327sec for 128MB
+
+SVM Buffer Copy In Time: 78.860322ms
+SVM Buffer Copy Out Time: 24.894297ms
+
+Iter: 6
+	PCIe Rd: 0.000000ms
+	Kernel: 21.590586ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216747ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642477sec for 128MB
+
+SVM Buffer Copy In Time: 78.876653ms
+SVM Buffer Copy Out Time: 24.878397ms
+
+Iter: 7
+	PCIe Rd: 0.000000ms
+	Kernel: 21.597182ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218203ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642232sec for 128MB
+
+SVM Buffer Copy In Time: 78.762721ms
+SVM Buffer Copy Out Time: 24.834894ms
+
+Iter: 8
+	PCIe Rd: 0.000000ms
+	Kernel: 21.599846ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.221624ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642259sec for 128MB
+
+SVM Buffer Copy In Time: 78.751951ms
+SVM Buffer Copy Out Time: 24.849439ms
+
+Iter: 9
+	PCIe Rd: 0.000000ms
+	Kernel: 21.597575ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.220714ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642429sec for 128MB
+
+SVM Buffer Copy In Time: 78.775396ms
+SVM Buffer Copy Out Time: 24.842773ms
+
+Iter: 10
+	PCIe Rd: 0.000000ms
+	Kernel: 21.601390ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.220201ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642218sec for 128MB
+
+SVM Buffer Copy In Time: 79.005753ms
+SVM Buffer Copy Out Time: 24.966240ms
+
+Iter: 11
+	PCIe Rd: 0.000000ms
+	Kernel: 21.592445ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217255ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642294sec for 128MB
+
+SVM Buffer Copy In Time: 78.877787ms
+SVM Buffer Copy Out Time: 24.857186ms
+
+Iter: 12
+	PCIe Rd: 0.000000ms
+	Kernel: 21.599062ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219633ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642461sec for 128MB
+
+SVM Buffer Copy In Time: 78.718240ms
+SVM Buffer Copy Out Time: 24.801782ms
+
+Iter: 13
+	PCIe Rd: 0.000000ms
+	Kernel: 21.595558ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217557ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642273sec for 128MB
+
+SVM Buffer Copy In Time: 78.792293ms
+SVM Buffer Copy Out Time: 24.810090ms
+
+Iter: 14
+	PCIe Rd: 0.000000ms
+	Kernel: 21.591380ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.212939ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642323sec for 128MB
+
+SVM Buffer Copy In Time: 78.873322ms
+SVM Buffer Copy Out Time: 24.860867ms
+
+Iter: 15
+	PCIe Rd: 0.000000ms
+	Kernel: 21.596906ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.215094ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642230sec for 128MB
+
+SVM Buffer Copy In Time: 79.051887ms
+SVM Buffer Copy Out Time: 25.096319ms
+
+Iter: 16
+	PCIe Rd: 0.000000ms
+	Kernel: 21.596582ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216554ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642219sec for 128MB
+
+SVM Buffer Copy In Time: 78.933552ms
+SVM Buffer Copy Out Time: 24.894435ms
+
+Iter: 17
+	PCIe Rd: 0.000000ms
+	Kernel: 21.595351ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218859ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.644238sec for 128MB
+
+SVM Buffer Copy In Time: 79.032636ms
+SVM Buffer Copy Out Time: 24.888118ms
+
+Iter: 18
+	PCIe Rd: 0.000000ms
+	Kernel: 21.595729ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216680ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.643993sec for 128MB
+
+SVM Buffer Copy In Time: 79.008111ms
+SVM Buffer Copy Out Time: 25.125900ms
+
+Iter: 19
+	PCIe Rd: 0.000000ms
+	Kernel: 21.592629ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.213426ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642224sec for 128MB
+
+SVM Buffer Copy In Time: 78.790143ms
+SVM Buffer Copy Out Time: 24.994917ms
+
+Iter: 20
+	PCIe Rd: 0.000000ms
+	Kernel: 21.602925ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218561ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642352sec for 128MB
+
+SVM Buffer Copy In Time: 78.956620ms
+SVM Buffer Copy Out Time: 24.946282ms
+
+Iter: 21
+	PCIe Rd: 0.000000ms
+	Kernel: 21.594527ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.215688ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642338sec for 128MB
+
+SVM Buffer Copy In Time: 78.792881ms
+SVM Buffer Copy Out Time: 24.803121ms
+
+Iter: 22
+	PCIe Rd: 0.000000ms
+	Kernel: 21.600707ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218580ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642386sec for 128MB
+
+SVM Buffer Copy In Time: 78.772692ms
+SVM Buffer Copy Out Time: 24.865280ms
+
+Iter: 23
+	PCIe Rd: 0.000000ms
+	Kernel: 21.602433ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.220669ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642427sec for 128MB
+
+SVM Buffer Copy In Time: 78.983244ms
+SVM Buffer Copy Out Time: 24.973837ms
+
+Iter: 24
+	PCIe Rd: 0.000000ms
+	Kernel: 21.600838ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219495ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642335sec for 128MB
+
+SVM Buffer Copy In Time: 78.883971ms
+SVM Buffer Copy Out Time: 24.895247ms
+
+Iter: 25
+	PCIe Rd: 0.000000ms
+	Kernel: 21.601884ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.223338ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642352sec for 128MB
+
+SVM Buffer Copy In Time: 78.829915ms
+SVM Buffer Copy Out Time: 24.830924ms
+
+Iter: 26
+	PCIe Rd: 0.000000ms
+	Kernel: 21.598647ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219223ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642395sec for 128MB
+
+SVM Buffer Copy In Time: 78.869476ms
+SVM Buffer Copy Out Time: 24.969788ms
+
+Iter: 27
+	PCIe Rd: 0.000000ms
+	Kernel: 21.606782ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.223335ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642234sec for 128MB
+
+SVM Buffer Copy In Time: 78.752049ms
+SVM Buffer Copy Out Time: 24.861997ms
+
+Iter: 28
+	PCIe Rd: 0.000000ms
+	Kernel: 21.596439ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217352ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642178sec for 128MB
+
+SVM Buffer Copy In Time: 78.794494ms
+SVM Buffer Copy Out Time: 24.963996ms
+
+Iter: 29
+	PCIe Rd: 0.000000ms
+	Kernel: 21.601677ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.220573ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642406sec for 128MB
+
+SVM Buffer Copy In Time: 79.027692ms
+SVM Buffer Copy Out Time: 24.902606ms
+
+Iter: 30
+	PCIe Rd: 0.000000ms
+	Kernel: 21.593096ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.215108ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642278sec for 128MB
+
+SVM Buffer Copy In Time: 78.736825ms
+SVM Buffer Copy Out Time: 24.816239ms
+
+Iter: 31
+	PCIe Rd: 0.000000ms
+	Kernel: 21.602666ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218256ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642281sec for 128MB
+
+SVM Buffer Copy In Time: 78.820115ms
+SVM Buffer Copy Out Time: 24.900362ms
+
+Iter: 32
+	PCIe Rd: 0.000000ms
+	Kernel: 21.599182ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.214306ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642289sec for 128MB
+
+SVM Buffer Copy In Time: 78.930795ms
+SVM Buffer Copy Out Time: 25.149511ms
+
+Iter: 33
+	PCIe Rd: 0.000000ms
+	Kernel: 21.596694ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.213913ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642264sec for 128MB
+
+SVM Buffer Copy In Time: 78.789313ms
+SVM Buffer Copy Out Time: 24.838573ms
+
+Iter: 34
+	PCIe Rd: 0.000000ms
+	Kernel: 21.596726ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216608ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642391sec for 128MB
+
+SVM Buffer Copy In Time: 78.871473ms
+SVM Buffer Copy Out Time: 24.985349ms
+
+Iter: 35
+	PCIe Rd: 0.000000ms
+	Kernel: 21.602272ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.220033ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642454sec for 128MB
+
+SVM Buffer Copy In Time: 79.060230ms
+SVM Buffer Copy Out Time: 24.958109ms
+
+Iter: 36
+	PCIe Rd: 0.000000ms
+	Kernel: 21.603998ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219561ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642400sec for 128MB
+
+SVM Buffer Copy In Time: 78.747585ms
+SVM Buffer Copy Out Time: 24.869201ms
+
+Iter: 37
+	PCIe Rd: 0.000000ms
+	Kernel: 21.603881ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219975ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642372sec for 128MB
+
+SVM Buffer Copy In Time: 78.768791ms
+SVM Buffer Copy Out Time: 24.826872ms
+
+Iter: 38
+	PCIe Rd: 0.000000ms
+	Kernel: 21.598490ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217123ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642349sec for 128MB
+
+SVM Buffer Copy In Time: 78.894154ms
+SVM Buffer Copy Out Time: 24.890904ms
+
+Iter: 39
+	PCIe Rd: 0.000000ms
+	Kernel: 21.612933ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.225035ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642420sec for 128MB
+
+SVM Buffer Copy In Time: 79.076239ms
+SVM Buffer Copy Out Time: 25.107528ms
+
+Iter: 40
+	PCIe Rd: 0.000000ms
+	Kernel: 21.606061ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.221741ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642376sec for 128MB
+
+SVM Buffer Copy In Time: 78.919664ms
+SVM Buffer Copy Out Time: 25.002093ms
+
+Iter: 41
+	PCIe Rd: 0.000000ms
+	Kernel: 21.595589ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216373ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642414sec for 128MB
+
+SVM Buffer Copy In Time: 78.952703ms
+SVM Buffer Copy Out Time: 24.867597ms
+
+Iter: 42
+	PCIe Rd: 0.000000ms
+	Kernel: 21.598571ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217470ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642358sec for 128MB
+
+SVM Buffer Copy In Time: 78.892621ms
+SVM Buffer Copy Out Time: 25.131490ms
+
+Iter: 43
+	PCIe Rd: 0.000000ms
+	Kernel: 21.599971ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.220262ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642350sec for 128MB
+
+SVM Buffer Copy In Time: 78.818973ms
+SVM Buffer Copy Out Time: 24.896165ms
+
+Iter: 44
+	PCIe Rd: 0.000000ms
+	Kernel: 21.600098ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218014ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642231sec for 128MB
+
+SVM Buffer Copy In Time: 78.721571ms
+SVM Buffer Copy Out Time: 24.826643ms
+
+Iter: 45
+	PCIe Rd: 0.000000ms
+	Kernel: 21.596551ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.213914ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642263sec for 128MB
+
+SVM Buffer Copy In Time: 78.893413ms
+SVM Buffer Copy Out Time: 24.855709ms
+
+Iter: 46
+	PCIe Rd: 0.000000ms
+	Kernel: 21.604161ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219674ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642426sec for 128MB
+
+SVM Buffer Copy In Time: 78.708562ms
+SVM Buffer Copy Out Time: 24.822180ms
+
+Iter: 47
+	PCIe Rd: 0.000000ms
+	Kernel: 21.604615ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217320ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642302sec for 128MB
+
+SVM Buffer Copy In Time: 78.933807ms
+SVM Buffer Copy Out Time: 24.962720ms
+
+Iter: 48
+	PCIe Rd: 0.000000ms
+	Kernel: 21.595432ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217242ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642289sec for 128MB
+
+SVM Buffer Copy In Time: 78.922307ms
+SVM Buffer Copy Out Time: 24.863682ms
+
+Iter: 49
+	PCIe Rd: 0.000000ms
+	Kernel: 21.606872ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.221983ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642360sec for 128MB
+
+SVM Buffer Copy In Time: 78.967898ms
+SVM Buffer Copy Out Time: 25.134387ms
+
+Iter: 50
+	PCIe Rd: 0.000000ms
+	Kernel: 21.604418ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219886ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642290sec for 128MB
+
+SVM Buffer Copy In Time: 78.782653ms
+SVM Buffer Copy Out Time: 24.805589ms
+
+Iter: 51
+	PCIe Rd: 0.000000ms
+	Kernel: 21.605174ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218097ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642169sec for 128MB
+
+SVM Buffer Copy In Time: 78.781670ms
+SVM Buffer Copy Out Time: 24.881944ms
+
+Iter: 52
+	PCIe Rd: 0.000000ms
+	Kernel: 21.601927ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.222055ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642379sec for 128MB
+
+SVM Buffer Copy In Time: 78.726366ms
+SVM Buffer Copy Out Time: 24.820085ms
+
+Iter: 53
+	PCIe Rd: 0.000000ms
+	Kernel: 21.594861ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.212459ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642455sec for 128MB
+
+SVM Buffer Copy In Time: 78.724878ms
+SVM Buffer Copy Out Time: 24.798924ms
+
+Iter: 54
+	PCIe Rd: 0.000000ms
+	Kernel: 21.607793ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.223189ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642234sec for 128MB
+
+SVM Buffer Copy In Time: 78.897075ms
+SVM Buffer Copy Out Time: 24.977580ms
+
+Iter: 55
+	PCIe Rd: 0.000000ms
+	Kernel: 21.602734ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.222470ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642257sec for 128MB
+
+SVM Buffer Copy In Time: 78.736596ms
+SVM Buffer Copy Out Time: 24.833609ms
+
+Iter: 56
+	PCIe Rd: 0.000000ms
+	Kernel: 21.598848ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.214323ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642321sec for 128MB
+
+SVM Buffer Copy In Time: 78.964394ms
+SVM Buffer Copy Out Time: 24.938349ms
+
+Iter: 57
+	PCIe Rd: 0.000000ms
+	Kernel: 21.595778ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216122ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642361sec for 128MB
+
+SVM Buffer Copy In Time: 78.938267ms
+SVM Buffer Copy Out Time: 25.110633ms
+
+Iter: 58
+	PCIe Rd: 0.000000ms
+	Kernel: 21.601107ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217872ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642555sec for 128MB
+
+SVM Buffer Copy In Time: 79.026288ms
+SVM Buffer Copy Out Time: 25.130359ms
+
+Iter: 59
+	PCIe Rd: 0.000000ms
+	Kernel: 21.599243ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218426ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642504sec for 128MB
+
+SVM Buffer Copy In Time: 78.808685ms
+SVM Buffer Copy Out Time: 24.809487ms
+
+Iter: 60
+	PCIe Rd: 0.000000ms
+	Kernel: 21.609403ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.221120ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642289sec for 128MB
+
+SVM Buffer Copy In Time: 78.817685ms
+SVM Buffer Copy Out Time: 24.883094ms
+
+Iter: 61
+	PCIe Rd: 0.000000ms
+	Kernel: 21.599654ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216811ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642434sec for 128MB
+
+SVM Buffer Copy In Time: 79.073019ms
+SVM Buffer Copy Out Time: 25.163224ms
+
+Iter: 62
+	PCIe Rd: 0.000000ms
+	Kernel: 21.605259ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.222055ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642306sec for 128MB
+
+SVM Buffer Copy In Time: 78.762660ms
+SVM Buffer Copy Out Time: 24.847628ms
+
+Iter: 63
+	PCIe Rd: 0.000000ms
+	Kernel: 21.605255ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218359ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642320sec for 128MB
+
+SVM Buffer Copy In Time: 78.767853ms
+SVM Buffer Copy Out Time: 24.875421ms
+
+Iter: 64
+	PCIe Rd: 0.000000ms
+	Kernel: 21.596342ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.213970ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642258sec for 128MB
+
+SVM Buffer Copy In Time: 78.993996ms
+SVM Buffer Copy Out Time: 25.125391ms
+
+Iter: 65
+	PCIe Rd: 0.000000ms
+	Kernel: 21.607722ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.224506ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642274sec for 128MB
+
+SVM Buffer Copy In Time: 78.975846ms
+SVM Buffer Copy Out Time: 24.905591ms
+
+Iter: 66
+	PCIe Rd: 0.000000ms
+	Kernel: 21.601609ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218180ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642313sec for 128MB
+
+SVM Buffer Copy In Time: 78.972694ms
+SVM Buffer Copy Out Time: 24.988019ms
+
+Iter: 67
+	PCIe Rd: 0.000000ms
+	Kernel: 21.597265ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217416ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642383sec for 128MB
+
+SVM Buffer Copy In Time: 78.999181ms
+SVM Buffer Copy Out Time: 24.943533ms
+
+Iter: 68
+	PCIe Rd: 0.000000ms
+	Kernel: 21.595612ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216830ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.643390sec for 128MB
+
+SVM Buffer Copy In Time: 78.878131ms
+SVM Buffer Copy Out Time: 25.022593ms
+
+Iter: 69
+	PCIe Rd: 0.000000ms
+	Kernel: 21.603022ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217623ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.644105sec for 128MB
+
+SVM Buffer Copy In Time: 79.268931ms
+SVM Buffer Copy Out Time: 25.249399ms
+
+Iter: 70
+	PCIe Rd: 0.000000ms
+	Kernel: 21.606846ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.222715ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642313sec for 128MB
+
+SVM Buffer Copy In Time: 78.991377ms
+SVM Buffer Copy Out Time: 25.139235ms
+
+Iter: 71
+	PCIe Rd: 0.000000ms
+	Kernel: 21.608521ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.221690ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642221sec for 128MB
+
+SVM Buffer Copy In Time: 78.795124ms
+SVM Buffer Copy Out Time: 24.863493ms
+
+Iter: 72
+	PCIe Rd: 0.000000ms
+	Kernel: 21.603790ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219359ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642281sec for 128MB
+
+SVM Buffer Copy In Time: 78.758765ms
+SVM Buffer Copy Out Time: 24.841703ms
+
+Iter: 73
+	PCIe Rd: 0.000000ms
+	Kernel: 21.603176ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219546ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642252sec for 128MB
+
+SVM Buffer Copy In Time: 79.005414ms
+SVM Buffer Copy Out Time: 24.870745ms
+
+Iter: 74
+	PCIe Rd: 0.000000ms
+	Kernel: 21.606748ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.223276ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642192sec for 128MB
+
+SVM Buffer Copy In Time: 78.978398ms
+SVM Buffer Copy Out Time: 24.963525ms
+
+Iter: 75
+	PCIe Rd: 0.000000ms
+	Kernel: 21.605637ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.218337ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642388sec for 128MB
+
+SVM Buffer Copy In Time: 78.931078ms
+SVM Buffer Copy Out Time: 25.139773ms
+
+Iter: 76
+	PCIe Rd: 0.000000ms
+	Kernel: 21.599456ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217478ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642285sec for 128MB
+
+SVM Buffer Copy In Time: 78.934653ms
+SVM Buffer Copy Out Time: 24.977258ms
+
+Iter: 77
+	PCIe Rd: 0.000000ms
+	Kernel: 21.599047ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216732ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642340sec for 128MB
+
+SVM Buffer Copy In Time: 79.027125ms
+SVM Buffer Copy Out Time: 25.105877ms
+
+Iter: 78
+	PCIe Rd: 0.000000ms
+	Kernel: 21.612784ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.221727ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642385sec for 128MB
+
+SVM Buffer Copy In Time: 78.762139ms
+SVM Buffer Copy Out Time: 24.827789ms
+
+Iter: 79
+	PCIe Rd: 0.000000ms
+	Kernel: 21.604516ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217301ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642436sec for 128MB
+
+SVM Buffer Copy In Time: 78.792984ms
+SVM Buffer Copy Out Time: 24.856784ms
+
+Iter: 80
+	PCIe Rd: 0.000000ms
+	Kernel: 21.605086ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219143ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642443sec for 128MB
+
+SVM Buffer Copy In Time: 78.764437ms
+SVM Buffer Copy Out Time: 24.887185ms
+
+Iter: 81
+	PCIe Rd: 0.000000ms
+	Kernel: 21.602133ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.220233ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642356sec for 128MB
+
+SVM Buffer Copy In Time: 78.810951ms
+SVM Buffer Copy Out Time: 24.850559ms
+
+Iter: 82
+	PCIe Rd: 0.000000ms
+	Kernel: 21.598941ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.215252ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642314sec for 128MB
+
+SVM Buffer Copy In Time: 78.994611ms
+SVM Buffer Copy Out Time: 25.148714ms
+
+Iter: 83
+	PCIe Rd: 0.000000ms
+	Kernel: 21.606065ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.225262ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642373sec for 128MB
+
+SVM Buffer Copy In Time: 79.049239ms
+SVM Buffer Copy Out Time: 25.152896ms
+
+Iter: 84
+	PCIe Rd: 0.000000ms
+	Kernel: 21.600822ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216373ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642362sec for 128MB
+
+SVM Buffer Copy In Time: 78.991525ms
+SVM Buffer Copy Out Time: 25.097897ms
+
+Iter: 85
+	PCIe Rd: 0.000000ms
+	Kernel: 21.605042ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217374ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642289sec for 128MB
+
+SVM Buffer Copy In Time: 79.035811ms
+SVM Buffer Copy Out Time: 25.174390ms
+
+Iter: 86
+	PCIe Rd: 0.000000ms
+	Kernel: 21.605150ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.221832ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642374sec for 128MB
+
+SVM Buffer Copy In Time: 78.741243ms
+SVM Buffer Copy Out Time: 25.050009ms
+
+Iter: 87
+	PCIe Rd: 0.000000ms
+	Kernel: 21.599018ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217707ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642282sec for 128MB
+
+SVM Buffer Copy In Time: 79.073390ms
+SVM Buffer Copy Out Time: 25.156711ms
+
+Iter: 88
+	PCIe Rd: 0.000000ms
+	Kernel: 21.600661ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.211673ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642246sec for 128MB
+
+SVM Buffer Copy In Time: 78.878274ms
+SVM Buffer Copy Out Time: 25.136834ms
+
+Iter: 89
+	PCIe Rd: 0.000000ms
+	Kernel: 21.598884ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217179ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642341sec for 128MB
+
+SVM Buffer Copy In Time: 78.731239ms
+SVM Buffer Copy Out Time: 24.798896ms
+
+Iter: 90
+	PCIe Rd: 0.000000ms
+	Kernel: 21.597187ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.215720ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642305sec for 128MB
+
+SVM Buffer Copy In Time: 78.770425ms
+SVM Buffer Copy Out Time: 25.116363ms
+
+Iter: 91
+	PCIe Rd: 0.000000ms
+	Kernel: 21.607770ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.224005ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642260sec for 128MB
+
+SVM Buffer Copy In Time: 79.026116ms
+SVM Buffer Copy Out Time: 24.935204ms
+
+Iter: 92
+	PCIe Rd: 0.000000ms
+	Kernel: 21.603126ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219683ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642306sec for 128MB
+
+SVM Buffer Copy In Time: 78.775478ms
+SVM Buffer Copy Out Time: 24.844658ms
+
+Iter: 93
+	PCIe Rd: 0.000000ms
+	Kernel: 21.601017ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.216316ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642158sec for 128MB
+
+SVM Buffer Copy In Time: 79.036560ms
+SVM Buffer Copy Out Time: 24.908814ms
+
+Iter: 94
+	PCIe Rd: 0.000000ms
+	Kernel: 21.595236ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.214825ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642259sec for 128MB
+
+SVM Buffer Copy In Time: 78.750532ms
+SVM Buffer Copy Out Time: 24.869368ms
+
+Iter: 95
+	PCIe Rd: 0.000000ms
+	Kernel: 21.607936ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.221241ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642197sec for 128MB
+
+SVM Buffer Copy In Time: 78.755275ms
+SVM Buffer Copy Out Time: 24.826809ms
+
+Iter: 96
+	PCIe Rd: 0.000000ms
+	Kernel: 21.605711ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.217150ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642208sec for 128MB
+
+SVM Buffer Copy In Time: 78.775738ms
+SVM Buffer Copy Out Time: 24.913583ms
+
+Iter: 97
+	PCIe Rd: 0.000000ms
+	Kernel: 21.605808ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.222825ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642312sec for 128MB
+
+SVM Buffer Copy In Time: 78.836568ms
+SVM Buffer Copy Out Time: 24.878733ms
+
+Iter: 98
+	PCIe Rd: 0.000000ms
+	Kernel: 21.607586ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.223786ms
+	HW PCIe Wr: 0.000000ms
+
+Time to Create Data: 0.642274sec for 128MB
+
+SVM Buffer Copy In Time: 79.043708ms
+SVM Buffer Copy Out Time: 25.109577ms
+
+Iter: 99
+	PCIe Rd: 0.000000ms
+	Kernel: 21.600487ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 21.219247ms
+	HW PCIe Wr: 0.000000ms
+
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points               = 256^3 
+Precision            = Single
+Direction            = Forward
+Iterations           = 100
+Batch                = 1
+Average Measurements of iterations
+PCIe Write           = 0.0000ms
+Kernel Execution     = 21.6012ms
+PCIe Read            = 0.0000ms
+Total                = 21.6012ms
+HW PCIe Write        = 0.0000ms
+HW Kernel Execution  = 21.2187ms
+HW PCIe Read         = 0.0000ms
+Hw Total             = 21.2187ms
+Throughput           = 86.8006GFLOPS/s | 5.8910 GB/s
+API runtime          = 276.1440ms
