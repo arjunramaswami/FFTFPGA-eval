@@ -1,0 +1,114 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 256^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 50 
+Iterations         = 5 
+Transpose          = DDR 
+Interleaving       = No 
+--------------------------------------------
+
+Number of devices: 1
+ -- Choosing first device
+ -- Found Coarse Grained Buffer SVM capability
+ -- Supports SVM 
+Iter: 0
+	PCIe Rd: 0.000000ms
+	Kernel: 628.611391ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 628.355521ms
+	HW PCIe Wr: 0.000000ms
+
+SVM Memcpy: 
+	HW Copy In: 1377.478885ms
+	HW Copy Out: 2473.293018ms
+
+Iter: 1
+	PCIe Rd: 0.000000ms
+	Kernel: 628.648372ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 628.413415ms
+	HW PCIe Wr: 0.000000ms
+
+SVM Memcpy: 
+	HW Copy In: 1379.147526ms
+	HW Copy Out: 1276.464889ms
+
+Iter: 2
+	PCIe Rd: 0.000000ms
+	Kernel: 628.830102ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 628.590326ms
+	HW PCIe Wr: 0.000000ms
+
+SVM Memcpy: 
+	HW Copy In: 1158.296484ms
+	HW Copy Out: 1375.241500ms
+
+Iter: 3
+	PCIe Rd: 0.000000ms
+	Kernel: 629.425559ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 629.190080ms
+	HW PCIe Wr: 0.000000ms
+
+SVM Memcpy: 
+	HW Copy In: 860.396873ms
+	HW Copy Out: 1513.391338ms
+
+Iter: 4
+	PCIe Rd: 0.000000ms
+	Kernel: 629.231776ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 628.990196ms
+	HW PCIe Wr: 0.000000ms
+
+SVM Memcpy: 
+	HW Copy In: 861.180543ms
+	HW Copy Out: 1506.482877ms
+
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points               = 256^3 
+Precision            = Single
+Direction            = Forward
+Iterations           = 5
+Batch                = 50
+Average Measurements of iterations
+PCIe Write           = 0.0000ms
+Kernel Execution     = 628.9494ms
+PCIe Read            = 0.0000ms
+Total                = 628.9494ms
+HW PCIe Write        = 0.0000ms
+HW Kernel Execution  = 628.7079ms
+HW Kernel Exec/Batch = 12.5742ms
+HW PCIe Read         = 0.0000ms
+Hw Total             = 628.7079ms
+Throughput           = 149.0581GFLOPS/s | 9.9410 GB/s
+API runtime          = 20376.3505ms
+
+SVM Copy In          = 1127.3001ms
+SVM Copy Out         = 1628.9747ms

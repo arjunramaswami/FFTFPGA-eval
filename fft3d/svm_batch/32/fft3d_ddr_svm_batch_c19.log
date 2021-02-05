@@ -1,0 +1,57 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 32^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 19 
+Iterations         = 1 
+Transpose          = DDR 
+Interleaving       = No 
+--------------------------------------------
+
+Number of devices: 1
+ -- Choosing first device
+ -- Found Coarse Grained Buffer SVM capability
+ -- Supports SVM 
+Iter: 0
+	PCIe Rd: 0.000000ms
+	Kernel: 7.379457ms
+	PCIe Wr: 0.000000ms
+
+Hw Counters: 
+	HW PCIe Rd: 0.000000ms
+	HW Kernel: 7.163999ms
+	HW PCIe Wr: 0.000000ms
+
+SVM Memcpy: 
+	HW Copy In: 1.294536ms
+	HW Copy Out: 2.576666ms
+
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points               = 32^3 
+Precision            = Single
+Direction            = Forward
+Iterations           = 1
+Batch                = 19
+PCIe Write           = 0.0000ms
+Kernel Execution     = 7.3795ms
+PCIe Read            = 0.0000ms
+Total                = 7.3795ms
+HW PCIe Write        = 0.0000ms
+HW Kernel Execution  = 7.1640ms
+HW Kernel Exec/Batch = 0.3771ms
+HW PCIe Read         = 0.0000ms
+Hw Total             = 7.1640ms
+Throughput           = 5.8931GFLOPS/s | 0.6475 GB/s
+API runtime          = 76.1034ms
+
+SVM Copy In          = 1.2945ms
+SVM Copy Out         = 2.5767ms
