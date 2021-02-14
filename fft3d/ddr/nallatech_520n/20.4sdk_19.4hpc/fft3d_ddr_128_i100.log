@@ -1,0 +1,1143 @@
+
+------------------------------------------
+FFT Configuration: 
+--------------------------------------------
+Type               = Complex to Complex
+Points             = 128^3 
+Precision          = Single 
+Direction          = Forward 
+Placement          = In Place    
+Batch              = 1 
+Iterations         = 100 
+Transpose          = DDR 
+Interleaving       = No 
+--------------------------------------------
+
+Num of Platforms found - 1
+  0 - intel(r) fpga sdk for opencl(tm) 
+Number of devices: 2
+ -- Choosing first device
+MMD INFO : Disabling SmartVID (fix) polling
+MMD INFO : Enabling SmartVID (fix) polling
+Time to Create Data: 0.037326sec for 16MB
+Iter: 0
+	PCIe Rd: 5.694798ms
+	Kernel: 2.988100ms
+	PCIe Wr: 2.885515ms
+
+Hw Counters: 
+	HW PCIe Rd: 5.661549ms
+	HW Kernel: 2.789675ms
+	HW PCIe Wr: 2.839975ms
+
+Time to Create Data: 0.033758sec for 16MB
+Iter: 1
+	PCIe Rd: 2.737545ms
+	Kernel: 2.965846ms
+	PCIe Wr: 2.828195ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.715216ms
+	HW Kernel: 2.780109ms
+	HW PCIe Wr: 2.798098ms
+
+Time to Create Data: 0.033717sec for 16MB
+Iter: 2
+	PCIe Rd: 2.736920ms
+	Kernel: 2.958577ms
+	PCIe Wr: 2.811007ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.715653ms
+	HW Kernel: 2.774772ms
+	HW PCIe Wr: 2.782193ms
+
+Time to Create Data: 0.033715sec for 16MB
+Iter: 3
+	PCIe Rd: 2.741297ms
+	Kernel: 2.959472ms
+	PCIe Wr: 2.810676ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.720230ms
+	HW Kernel: 2.775686ms
+	HW PCIe Wr: 2.781782ms
+
+Time to Create Data: 0.033738sec for 16MB
+Iter: 4
+	PCIe Rd: 2.741703ms
+	Kernel: 2.955954ms
+	PCIe Wr: 2.785986ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.721219ms
+	HW Kernel: 2.775007ms
+	HW PCIe Wr: 2.757985ms
+
+Time to Create Data: 0.033748sec for 16MB
+Iter: 5
+	PCIe Rd: 2.740952ms
+	Kernel: 2.956220ms
+	PCIe Wr: 2.810353ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.720331ms
+	HW Kernel: 2.775234ms
+	HW PCIe Wr: 2.782506ms
+
+Time to Create Data: 0.033722sec for 16MB
+Iter: 6
+	PCIe Rd: 2.745964ms
+	Kernel: 2.955536ms
+	PCIe Wr: 2.810897ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.725125ms
+	HW Kernel: 2.775675ms
+	HW PCIe Wr: 2.782278ms
+
+Time to Create Data: 0.033714sec for 16MB
+Iter: 7
+	PCIe Rd: 2.732205ms
+	Kernel: 2.977250ms
+	PCIe Wr: 2.843162ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.711538ms
+	HW Kernel: 2.784084ms
+	HW PCIe Wr: 2.805286ms
+
+Time to Create Data: 0.033694sec for 16MB
+Iter: 8
+	PCIe Rd: 2.734221ms
+	Kernel: 2.958219ms
+	PCIe Wr: 2.817376ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.709017ms
+	HW Kernel: 2.775463ms
+	HW PCIe Wr: 2.787581ms
+
+Time to Create Data: 0.033740sec for 16MB
+Iter: 9
+	PCIe Rd: 2.751147ms
+	Kernel: 2.957827ms
+	PCIe Wr: 2.796333ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.730467ms
+	HW Kernel: 2.774547ms
+	HW PCIe Wr: 2.768405ms
+
+Time to Create Data: 0.033715sec for 16MB
+Iter: 10
+	PCIe Rd: 2.743057ms
+	Kernel: 2.960241ms
+	PCIe Wr: 2.799093ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.718786ms
+	HW Kernel: 2.775667ms
+	HW PCIe Wr: 2.770529ms
+
+Time to Create Data: 0.033719sec for 16MB
+Iter: 11
+	PCIe Rd: 2.740264ms
+	Kernel: 2.963823ms
+	PCIe Wr: 2.824134ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.719281ms
+	HW Kernel: 2.772933ms
+	HW PCIe Wr: 2.795401ms
+
+Time to Create Data: 0.033723sec for 16MB
+Iter: 12
+	PCIe Rd: 2.730211ms
+	Kernel: 2.964138ms
+	PCIe Wr: 2.802621ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.709420ms
+	HW Kernel: 2.775454ms
+	HW PCIe Wr: 2.774816ms
+
+Time to Create Data: 0.033714sec for 16MB
+Iter: 13
+	PCIe Rd: 2.727543ms
+	Kernel: 2.963689ms
+	PCIe Wr: 2.798200ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.704973ms
+	HW Kernel: 2.775858ms
+	HW PCIe Wr: 2.769318ms
+
+Time to Create Data: 0.033705sec for 16MB
+Iter: 14
+	PCIe Rd: 2.727177ms
+	Kernel: 2.964571ms
+	PCIe Wr: 2.792217ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.705900ms
+	HW Kernel: 2.777137ms
+	HW PCIe Wr: 2.764862ms
+
+Time to Create Data: 0.033705sec for 16MB
+Iter: 15
+	PCIe Rd: 2.725835ms
+	Kernel: 2.964457ms
+	PCIe Wr: 2.791762ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.705160ms
+	HW Kernel: 2.775307ms
+	HW PCIe Wr: 2.764078ms
+
+Time to Create Data: 0.033765sec for 16MB
+Iter: 16
+	PCIe Rd: 2.719623ms
+	Kernel: 2.966774ms
+	PCIe Wr: 2.800536ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.698418ms
+	HW Kernel: 2.777552ms
+	HW PCIe Wr: 2.768913ms
+
+Time to Create Data: 0.033699sec for 16MB
+Iter: 17
+	PCIe Rd: 2.723735ms
+	Kernel: 2.957088ms
+	PCIe Wr: 2.802196ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.702520ms
+	HW Kernel: 2.774434ms
+	HW PCIe Wr: 2.770615ms
+
+Time to Create Data: 0.033703sec for 16MB
+Iter: 18
+	PCIe Rd: 2.722191ms
+	Kernel: 2.962437ms
+	PCIe Wr: 2.792982ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.701648ms
+	HW Kernel: 2.774977ms
+	HW PCIe Wr: 2.764249ms
+
+Time to Create Data: 0.033710sec for 16MB
+Iter: 19
+	PCIe Rd: 2.720785ms
+	Kernel: 2.967102ms
+	PCIe Wr: 2.800441ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.699648ms
+	HW Kernel: 2.777801ms
+	HW PCIe Wr: 2.772945ms
+
+Time to Create Data: 0.033713sec for 16MB
+Iter: 20
+	PCIe Rd: 2.715382ms
+	Kernel: 2.962351ms
+	PCIe Wr: 2.799023ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.694568ms
+	HW Kernel: 2.775373ms
+	HW PCIe Wr: 2.771204ms
+
+Time to Create Data: 0.033708sec for 16MB
+Iter: 21
+	PCIe Rd: 2.719317ms
+	Kernel: 2.960065ms
+	PCIe Wr: 2.807322ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.698483ms
+	HW Kernel: 2.775533ms
+	HW PCIe Wr: 2.778624ms
+
+Time to Create Data: 0.033774sec for 16MB
+Iter: 22
+	PCIe Rd: 2.739637ms
+	Kernel: 2.967360ms
+	PCIe Wr: 2.808392ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.714722ms
+	HW Kernel: 2.775289ms
+	HW PCIe Wr: 2.780080ms
+
+Time to Create Data: 0.033781sec for 16MB
+Iter: 23
+	PCIe Rd: 2.722901ms
+	Kernel: 2.964868ms
+	PCIe Wr: 2.879189ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.701901ms
+	HW Kernel: 2.774684ms
+	HW PCIe Wr: 2.849689ms
+
+Time to Create Data: 0.034228sec for 16MB
+Iter: 24
+	PCIe Rd: 2.735359ms
+	Kernel: 2.990288ms
+	PCIe Wr: 2.841527ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.713595ms
+	HW Kernel: 2.783397ms
+	HW PCIe Wr: 2.797738ms
+
+Time to Create Data: 0.033713sec for 16MB
+Iter: 25
+	PCIe Rd: 2.701527ms
+	Kernel: 2.966497ms
+	PCIe Wr: 2.820763ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.680757ms
+	HW Kernel: 2.774890ms
+	HW PCIe Wr: 2.792289ms
+
+Time to Create Data: 0.033694sec for 16MB
+Iter: 26
+	PCIe Rd: 2.721757ms
+	Kernel: 2.964926ms
+	PCIe Wr: 2.811319ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.698184ms
+	HW Kernel: 2.776809ms
+	HW PCIe Wr: 2.782689ms
+
+Time to Create Data: 0.033697sec for 16MB
+Iter: 27
+	PCIe Rd: 2.718244ms
+	Kernel: 2.969029ms
+	PCIe Wr: 2.818152ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.697515ms
+	HW Kernel: 2.774512ms
+	HW PCIe Wr: 2.789630ms
+
+Time to Create Data: 0.033717sec for 16MB
+Iter: 28
+	PCIe Rd: 2.719792ms
+	Kernel: 2.962925ms
+	PCIe Wr: 2.804173ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.699718ms
+	HW Kernel: 2.775684ms
+	HW PCIe Wr: 2.776960ms
+
+Time to Create Data: 0.033694sec for 16MB
+Iter: 29
+	PCIe Rd: 2.723278ms
+	Kernel: 2.972450ms
+	PCIe Wr: 2.803939ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.702093ms
+	HW Kernel: 2.774558ms
+	HW PCIe Wr: 2.775353ms
+
+Time to Create Data: 0.033684sec for 16MB
+Iter: 30
+	PCIe Rd: 2.718686ms
+	Kernel: 2.963506ms
+	PCIe Wr: 2.797545ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.698482ms
+	HW Kernel: 2.779348ms
+	HW PCIe Wr: 2.767417ms
+
+Time to Create Data: 0.033689sec for 16MB
+Iter: 31
+	PCIe Rd: 2.722157ms
+	Kernel: 2.970653ms
+	PCIe Wr: 2.799247ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.701362ms
+	HW Kernel: 2.774530ms
+	HW PCIe Wr: 2.770830ms
+
+Time to Create Data: 0.033691sec for 16MB
+Iter: 32
+	PCIe Rd: 2.723552ms
+	Kernel: 2.957344ms
+	PCIe Wr: 2.790418ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.702053ms
+	HW Kernel: 2.774598ms
+	HW PCIe Wr: 2.762499ms
+
+Time to Create Data: 0.033692sec for 16MB
+Iter: 33
+	PCIe Rd: 2.725412ms
+	Kernel: 2.960720ms
+	PCIe Wr: 2.796877ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.704263ms
+	HW Kernel: 2.774823ms
+	HW PCIe Wr: 2.768341ms
+
+Time to Create Data: 0.033710sec for 16MB
+Iter: 34
+	PCIe Rd: 2.719636ms
+	Kernel: 2.960386ms
+	PCIe Wr: 2.797107ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.698967ms
+	HW Kernel: 2.772586ms
+	HW PCIe Wr: 2.769747ms
+
+Time to Create Data: 0.033711sec for 16MB
+Iter: 35
+	PCIe Rd: 2.724348ms
+	Kernel: 2.959342ms
+	PCIe Wr: 2.824731ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.703402ms
+	HW Kernel: 2.774000ms
+	HW PCIe Wr: 2.794703ms
+
+Time to Create Data: 0.033696sec for 16MB
+Iter: 36
+	PCIe Rd: 2.722705ms
+	Kernel: 2.956154ms
+	PCIe Wr: 2.793735ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.701968ms
+	HW Kernel: 2.774406ms
+	HW PCIe Wr: 2.765011ms
+
+Time to Create Data: 0.034119sec for 16MB
+Iter: 37
+	PCIe Rd: 2.715016ms
+	Kernel: 2.993920ms
+	PCIe Wr: 2.829276ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.692766ms
+	HW Kernel: 2.781372ms
+	HW PCIe Wr: 2.785217ms
+
+Time to Create Data: 0.033681sec for 16MB
+Iter: 38
+	PCIe Rd: 2.705460ms
+	Kernel: 2.966765ms
+	PCIe Wr: 2.802780ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.684288ms
+	HW Kernel: 2.775436ms
+	HW PCIe Wr: 2.774250ms
+
+Time to Create Data: 0.033693sec for 16MB
+Iter: 39
+	PCIe Rd: 2.725422ms
+	Kernel: 2.967391ms
+	PCIe Wr: 2.803397ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.703966ms
+	HW Kernel: 2.774133ms
+	HW PCIe Wr: 2.773960ms
+
+Time to Create Data: 0.033695sec for 16MB
+Iter: 40
+	PCIe Rd: 2.728024ms
+	Kernel: 2.969349ms
+	PCIe Wr: 2.800681ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.707027ms
+	HW Kernel: 2.774127ms
+	HW PCIe Wr: 2.772804ms
+
+Time to Create Data: 0.033698sec for 16MB
+Iter: 41
+	PCIe Rd: 2.726194ms
+	Kernel: 2.964648ms
+	PCIe Wr: 2.809501ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.705449ms
+	HW Kernel: 2.774575ms
+	HW PCIe Wr: 2.781536ms
+
+Time to Create Data: 0.033692sec for 16MB
+Iter: 42
+	PCIe Rd: 2.733048ms
+	Kernel: 2.963435ms
+	PCIe Wr: 2.802055ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.711740ms
+	HW Kernel: 2.774960ms
+	HW PCIe Wr: 2.773295ms
+
+Time to Create Data: 0.033686sec for 16MB
+Iter: 43
+	PCIe Rd: 2.733186ms
+	Kernel: 2.958584ms
+	PCIe Wr: 2.801857ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.711570ms
+	HW Kernel: 2.774289ms
+	HW PCIe Wr: 2.771854ms
+
+Time to Create Data: 0.033688sec for 16MB
+Iter: 44
+	PCIe Rd: 2.732477ms
+	Kernel: 2.958293ms
+	PCIe Wr: 2.802107ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.711726ms
+	HW Kernel: 2.774544ms
+	HW PCIe Wr: 2.772934ms
+
+Time to Create Data: 0.033687sec for 16MB
+Iter: 45
+	PCIe Rd: 2.733505ms
+	Kernel: 2.963266ms
+	PCIe Wr: 2.810376ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.711912ms
+	HW Kernel: 2.774107ms
+	HW PCIe Wr: 2.781557ms
+
+Time to Create Data: 0.033684sec for 16MB
+Iter: 46
+	PCIe Rd: 2.741081ms
+	Kernel: 2.968634ms
+	PCIe Wr: 2.811698ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.720169ms
+	HW Kernel: 2.774052ms
+	HW PCIe Wr: 2.782963ms
+
+Time to Create Data: 0.033696sec for 16MB
+Iter: 47
+	PCIe Rd: 2.743309ms
+	Kernel: 2.969396ms
+	PCIe Wr: 2.844049ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.721707ms
+	HW Kernel: 2.776115ms
+	HW PCIe Wr: 2.814496ms
+
+Time to Create Data: 0.033707sec for 16MB
+Iter: 48
+	PCIe Rd: 2.740964ms
+	Kernel: 2.966593ms
+	PCIe Wr: 2.812197ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.719962ms
+	HW Kernel: 2.776142ms
+	HW PCIe Wr: 2.782700ms
+
+Time to Create Data: 0.033699sec for 16MB
+Iter: 49
+	PCIe Rd: 2.745843ms
+	Kernel: 2.966370ms
+	PCIe Wr: 2.809169ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.724868ms
+	HW Kernel: 2.778251ms
+	HW PCIe Wr: 2.780566ms
+
+Time to Create Data: 0.033691sec for 16MB
+Iter: 50
+	PCIe Rd: 2.747375ms
+	Kernel: 2.961483ms
+	PCIe Wr: 2.802612ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.725918ms
+	HW Kernel: 2.776628ms
+	HW PCIe Wr: 2.774406ms
+
+Time to Create Data: 0.033690sec for 16MB
+Iter: 51
+	PCIe Rd: 2.746068ms
+	Kernel: 2.960643ms
+	PCIe Wr: 2.800669ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.723982ms
+	HW Kernel: 2.773836ms
+	HW PCIe Wr: 2.771756ms
+
+Time to Create Data: 0.033678sec for 16MB
+Iter: 52
+	PCIe Rd: 2.743830ms
+	Kernel: 2.963262ms
+	PCIe Wr: 2.801595ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.723203ms
+	HW Kernel: 2.772492ms
+	HW PCIe Wr: 2.773939ms
+
+Time to Create Data: 0.033674sec for 16MB
+Iter: 53
+	PCIe Rd: 2.740734ms
+	Kernel: 2.963031ms
+	PCIe Wr: 2.796792ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.719423ms
+	HW Kernel: 2.774952ms
+	HW PCIe Wr: 2.768754ms
+
+Time to Create Data: 0.033702sec for 16MB
+Iter: 54
+	PCIe Rd: 2.735673ms
+	Kernel: 2.959115ms
+	PCIe Wr: 2.793335ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.714994ms
+	HW Kernel: 2.774578ms
+	HW PCIe Wr: 2.765449ms
+
+Time to Create Data: 0.033686sec for 16MB
+Iter: 55
+	PCIe Rd: 2.734769ms
+	Kernel: 2.959541ms
+	PCIe Wr: 2.797031ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.713426ms
+	HW Kernel: 2.776232ms
+	HW PCIe Wr: 2.769053ms
+
+Time to Create Data: 0.033709sec for 16MB
+Iter: 56
+	PCIe Rd: 2.730859ms
+	Kernel: 2.961554ms
+	PCIe Wr: 2.801284ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.709627ms
+	HW Kernel: 2.774935ms
+	HW PCIe Wr: 2.773251ms
+
+Time to Create Data: 0.033703sec for 16MB
+Iter: 57
+	PCIe Rd: 2.730101ms
+	Kernel: 2.961577ms
+	PCIe Wr: 2.800064ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.709366ms
+	HW Kernel: 2.774560ms
+	HW PCIe Wr: 2.771118ms
+
+Time to Create Data: 0.033699sec for 16MB
+Iter: 58
+	PCIe Rd: 2.744221ms
+	Kernel: 2.965852ms
+	PCIe Wr: 2.798123ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.723272ms
+	HW Kernel: 2.775401ms
+	HW PCIe Wr: 2.770997ms
+
+Time to Create Data: 0.034121sec for 16MB
+Iter: 59
+	PCIe Rd: 2.714377ms
+	Kernel: 2.997584ms
+	PCIe Wr: 2.855393ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.692018ms
+	HW Kernel: 2.781914ms
+	HW PCIe Wr: 2.810979ms
+
+Time to Create Data: 0.033680sec for 16MB
+Iter: 60
+	PCIe Rd: 2.721090ms
+	Kernel: 2.967168ms
+	PCIe Wr: 2.803422ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.700005ms
+	HW Kernel: 2.775833ms
+	HW PCIe Wr: 2.775334ms
+
+Time to Create Data: 0.033784sec for 16MB
+Iter: 61
+	PCIe Rd: 2.751705ms
+	Kernel: 2.977637ms
+	PCIe Wr: 2.821709ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.726426ms
+	HW Kernel: 2.772245ms
+	HW PCIe Wr: 2.784082ms
+
+Time to Create Data: 0.033726sec for 16MB
+Iter: 62
+	PCIe Rd: 2.721355ms
+	Kernel: 2.977712ms
+	PCIe Wr: 2.815815ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.699050ms
+	HW Kernel: 2.785308ms
+	HW PCIe Wr: 2.784626ms
+
+Time to Create Data: 0.033750sec for 16MB
+Iter: 63
+	PCIe Rd: 2.712457ms
+	Kernel: 2.968655ms
+	PCIe Wr: 2.814828ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.691354ms
+	HW Kernel: 2.776085ms
+	HW PCIe Wr: 2.786257ms
+
+Time to Create Data: 0.033705sec for 16MB
+Iter: 64
+	PCIe Rd: 2.713964ms
+	Kernel: 2.970194ms
+	PCIe Wr: 2.795080ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.693338ms
+	HW Kernel: 2.775526ms
+	HW PCIe Wr: 2.766797ms
+
+Time to Create Data: 0.033679sec for 16MB
+Iter: 65
+	PCIe Rd: 2.716662ms
+	Kernel: 2.963275ms
+	PCIe Wr: 2.803300ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.694869ms
+	HW Kernel: 2.774210ms
+	HW PCIe Wr: 2.775180ms
+
+Time to Create Data: 0.033713sec for 16MB
+Iter: 66
+	PCIe Rd: 2.722989ms
+	Kernel: 2.962503ms
+	PCIe Wr: 2.807160ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.701226ms
+	HW Kernel: 2.775197ms
+	HW PCIe Wr: 2.778814ms
+
+Time to Create Data: 0.033699sec for 16MB
+Iter: 67
+	PCIe Rd: 2.720576ms
+	Kernel: 2.961670ms
+	PCIe Wr: 2.808620ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.699120ms
+	HW Kernel: 2.773272ms
+	HW PCIe Wr: 2.780773ms
+
+Time to Create Data: 0.033701sec for 16MB
+Iter: 68
+	PCIe Rd: 2.723784ms
+	Kernel: 2.965606ms
+	PCIe Wr: 2.789095ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.698842ms
+	HW Kernel: 2.775237ms
+	HW PCIe Wr: 2.760716ms
+
+Time to Create Data: 0.033704sec for 16MB
+Iter: 69
+	PCIe Rd: 2.720054ms
+	Kernel: 2.964065ms
+	PCIe Wr: 2.812240ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.698736ms
+	HW Kernel: 2.774297ms
+	HW PCIe Wr: 2.784527ms
+
+Time to Create Data: 0.033704sec for 16MB
+Iter: 70
+	PCIe Rd: 2.718479ms
+	Kernel: 2.960243ms
+	PCIe Wr: 2.808301ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.697898ms
+	HW Kernel: 2.774790ms
+	HW PCIe Wr: 2.779459ms
+
+Time to Create Data: 0.033702sec for 16MB
+Iter: 71
+	PCIe Rd: 2.722670ms
+	Kernel: 2.969392ms
+	PCIe Wr: 2.838354ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.701724ms
+	HW Kernel: 2.775617ms
+	HW PCIe Wr: 2.809916ms
+
+Time to Create Data: 0.033717sec for 16MB
+Iter: 72
+	PCIe Rd: 2.720824ms
+	Kernel: 2.968015ms
+	PCIe Wr: 2.804842ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.699984ms
+	HW Kernel: 2.776034ms
+	HW PCIe Wr: 2.776158ms
+
+Time to Create Data: 0.033694sec for 16MB
+Iter: 73
+	PCIe Rd: 2.722767ms
+	Kernel: 2.966288ms
+	PCIe Wr: 2.795428ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.702331ms
+	HW Kernel: 2.774098ms
+	HW PCIe Wr: 2.766804ms
+
+Time to Create Data: 0.033687sec for 16MB
+Iter: 74
+	PCIe Rd: 2.723553ms
+	Kernel: 2.963542ms
+	PCIe Wr: 2.798651ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.702723ms
+	HW Kernel: 2.774132ms
+	HW PCIe Wr: 2.769965ms
+
+Time to Create Data: 0.033793sec for 16MB
+Iter: 75
+	PCIe Rd: 2.727658ms
+	Kernel: 2.970712ms
+	PCIe Wr: 2.795503ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.705989ms
+	HW Kernel: 2.776769ms
+	HW PCIe Wr: 2.766431ms
+
+Time to Create Data: 0.033692sec for 16MB
+Iter: 76
+	PCIe Rd: 2.721631ms
+	Kernel: 2.968293ms
+	PCIe Wr: 2.790790ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.700487ms
+	HW Kernel: 2.779804ms
+	HW PCIe Wr: 2.763965ms
+
+Time to Create Data: 0.033711sec for 16MB
+Iter: 77
+	PCIe Rd: 2.720486ms
+	Kernel: 2.967459ms
+	PCIe Wr: 2.801977ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.699228ms
+	HW Kernel: 2.779290ms
+	HW PCIe Wr: 2.771372ms
+
+Time to Create Data: 0.033704sec for 16MB
+Iter: 78
+	PCIe Rd: 2.726308ms
+	Kernel: 2.963049ms
+	PCIe Wr: 2.796171ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.704790ms
+	HW Kernel: 2.774074ms
+	HW PCIe Wr: 2.768353ms
+
+Time to Create Data: 0.033690sec for 16MB
+Iter: 79
+	PCIe Rd: 2.725738ms
+	Kernel: 2.964337ms
+	PCIe Wr: 2.795712ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.705002ms
+	HW Kernel: 2.774954ms
+	HW PCIe Wr: 2.768791ms
+
+Time to Create Data: 0.033738sec for 16MB
+Iter: 80
+	PCIe Rd: 2.721069ms
+	Kernel: 2.962889ms
+	PCIe Wr: 2.794401ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.699842ms
+	HW Kernel: 2.774972ms
+	HW PCIe Wr: 2.766879ms
+
+Time to Create Data: 0.033689sec for 16MB
+Iter: 81
+	PCIe Rd: 2.726115ms
+	Kernel: 2.963033ms
+	PCIe Wr: 2.806781ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.705097ms
+	HW Kernel: 2.775084ms
+	HW PCIe Wr: 2.778917ms
+
+Time to Create Data: 0.033708sec for 16MB
+Iter: 82
+	PCIe Rd: 2.728169ms
+	Kernel: 2.963836ms
+	PCIe Wr: 2.797382ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.706848ms
+	HW Kernel: 2.773803ms
+	HW PCIe Wr: 2.769569ms
+
+Time to Create Data: 0.033700sec for 16MB
+Iter: 83
+	PCIe Rd: 2.724012ms
+	Kernel: 2.966676ms
+	PCIe Wr: 2.849107ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.703303ms
+	HW Kernel: 2.774519ms
+	HW PCIe Wr: 2.821297ms
+
+Time to Create Data: 0.033749sec for 16MB
+Iter: 84
+	PCIe Rd: 2.729043ms
+	Kernel: 2.965207ms
+	PCIe Wr: 2.804895ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.706397ms
+	HW Kernel: 2.776537ms
+	HW PCIe Wr: 2.776559ms
+
+Time to Create Data: 0.033696sec for 16MB
+Iter: 85
+	PCIe Rd: 2.731639ms
+	Kernel: 2.960376ms
+	PCIe Wr: 2.806360ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.711065ms
+	HW Kernel: 2.774303ms
+	HW PCIe Wr: 2.778170ms
+
+Time to Create Data: 0.033737sec for 16MB
+Iter: 86
+	PCIe Rd: 2.735078ms
+	Kernel: 2.963934ms
+	PCIe Wr: 2.802548ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.713453ms
+	HW Kernel: 2.776711ms
+	HW PCIe Wr: 2.773750ms
+
+Time to Create Data: 0.033747sec for 16MB
+Iter: 87
+	PCIe Rd: 2.733492ms
+	Kernel: 2.967240ms
+	PCIe Wr: 2.807868ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.711625ms
+	HW Kernel: 2.775604ms
+	HW PCIe Wr: 2.777839ms
+
+Time to Create Data: 0.033719sec for 16MB
+Iter: 88
+	PCIe Rd: 2.746544ms
+	Kernel: 2.964644ms
+	PCIe Wr: 2.812001ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.724872ms
+	HW Kernel: 2.774097ms
+	HW PCIe Wr: 2.782841ms
+
+Time to Create Data: 0.033895sec for 16MB
+Iter: 89
+	PCIe Rd: 2.739481ms
+	Kernel: 2.983959ms
+	PCIe Wr: 2.841677ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.716917ms
+	HW Kernel: 2.789953ms
+	HW PCIe Wr: 2.810763ms
+
+Time to Create Data: 0.033756sec for 16MB
+Iter: 90
+	PCIe Rd: 2.736607ms
+	Kernel: 2.966117ms
+	PCIe Wr: 2.817781ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.715585ms
+	HW Kernel: 2.774748ms
+	HW PCIe Wr: 2.790220ms
+
+Time to Create Data: 0.033743sec for 16MB
+Iter: 91
+	PCIe Rd: 2.740443ms
+	Kernel: 2.962593ms
+	PCIe Wr: 2.804560ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.720096ms
+	HW Kernel: 2.775314ms
+	HW PCIe Wr: 2.777293ms
+
+Time to Create Data: 0.033738sec for 16MB
+Iter: 92
+	PCIe Rd: 2.745379ms
+	Kernel: 2.960236ms
+	PCIe Wr: 2.801285ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.725075ms
+	HW Kernel: 2.774199ms
+	HW PCIe Wr: 2.774001ms
+
+Time to Create Data: 0.033705sec for 16MB
+Iter: 93
+	PCIe Rd: 2.747761ms
+	Kernel: 2.963798ms
+	PCIe Wr: 2.800443ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.726494ms
+	HW Kernel: 2.774963ms
+	HW PCIe Wr: 2.772177ms
+
+Time to Create Data: 0.033701sec for 16MB
+Iter: 94
+	PCIe Rd: 2.744322ms
+	Kernel: 2.962153ms
+	PCIe Wr: 2.827632ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.723678ms
+	HW Kernel: 2.773188ms
+	HW PCIe Wr: 2.799497ms
+
+Time to Create Data: 0.033702sec for 16MB
+Iter: 95
+	PCIe Rd: 2.717523ms
+	Kernel: 2.966285ms
+	PCIe Wr: 2.820818ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.697263ms
+	HW Kernel: 2.774580ms
+	HW PCIe Wr: 2.793097ms
+
+Time to Create Data: 0.033972sec for 16MB
+Iter: 96
+	PCIe Rd: 2.740577ms
+	Kernel: 3.012484ms
+	PCIe Wr: 2.836029ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.717809ms
+	HW Kernel: 2.781581ms
+	HW PCIe Wr: 2.790630ms
+
+Time to Create Data: 0.033701sec for 16MB
+Iter: 97
+	PCIe Rd: 2.721123ms
+	Kernel: 2.966856ms
+	PCIe Wr: 2.807568ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.700217ms
+	HW Kernel: 2.774466ms
+	HW PCIe Wr: 2.777428ms
+
+Time to Create Data: 0.033707sec for 16MB
+Iter: 98
+	PCIe Rd: 2.731474ms
+	Kernel: 2.963491ms
+	PCIe Wr: 2.800944ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.710448ms
+	HW Kernel: 2.775045ms
+	HW PCIe Wr: 2.773362ms
+
+Time to Create Data: 0.033713sec for 16MB
+Iter: 99
+	PCIe Rd: 2.729189ms
+	Kernel: 2.963459ms
+	PCIe Wr: 2.795455ms
+
+Hw Counters: 
+	HW PCIe Rd: 2.708492ms
+	HW Kernel: 2.774375ms
+	HW PCIe Wr: 2.768476ms
+
+
+
+------------------------------------------
+Measurements 
+--------------------------------------------
+Points               = 128^3 
+Precision            = Single
+Direction            = Forward
+Iterations           = 100
+Batch                = 1
+Average Measurements of iterations
+PCIe Write           = 2.8092ms
+Kernel Execution     = 2.9660ms
+PCIe Read            = 2.7591ms
+Total                = 8.5342ms
+HW PCIe Write        = 2.7796ms
+HW Kernel Execution  = 2.7759ms
+HW Kernel Exec/Batch = 2.7759ms
+HW PCIe Read         = 2.7376ms
+Hw Total             = 8.2932ms
+Throughput           = 73.8768GFLOPS/s | 5.6287 GB/s
+API runtime          = 8.6002ms
