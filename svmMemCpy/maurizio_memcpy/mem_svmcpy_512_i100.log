@@ -1,0 +1,136 @@
+<3 Arguments given, assuming hardware execution mode.
+Using SDK as search string for platform.
+Using bin/mem_bandwidth_s10_svmddr_batch3.aocx as aocx name.
+Found 3 platforms!
+Trying to select platform SDK...
+1. Device: pac_s10_usm : Intel PAC Platform (pac_e400000)
+   1.1 Device version: OpenCL 1.0 Intel(R) FPGA SDK for OpenCL(TM), Version 20.3
+-- Choosing first device
+SVM enabled!
+Creating SVM buffers.
+Info: Using clSVMAllocIntelFPGAInfo: Using clSVMAllocIntelFPGAInfo: Using clSVMAllocIntelFPGACreating DDR buffers.
+Initializing data.
+Trying to load aocx: bin/mem_bandwidth_s10_svmddr_batch3.aocx
+0 - Creating nop kernel
+Launching the kernel...
+after kernel nop launch
+
+1 - Creating memcopy kernel (Host->Host)
+Launching the kernel...
+Processed 268435456 unsigned ints in 92119.4470 us
+Read/Write Bandwidth = 23312 MB/s
+Kernel execution is complete.
+
+5 - Creating memcopy_ddr kernel (DDR->DDR)
+Copying to DDR
+Launching the kernel...
+after kernel launch
+Processed 268435456 unsigned ints in 64949.9780 us
+Read/Write Bandwidth = 16532 MB/s
+Kernel execution is complete.
+Copying from DDR
+
+9 - Creating batched memcopy_to_ddr and memcopy_from_ddr kernel (Host->DDR->Host)
+Writing to device
+Launching the kernel...
+
+Batch 1: Write Kernel Start  0
+Batch 1: Write Kernel End    0
+Batch 1: Read Kernel Start   605571025772966
+Batch 1: Read Kernel End     605571110043882
+Batch 2: Write Kernel Start  605571025747970
+Batch 2: Write Kernel End    605571194231655
+Batch 2: Read Kernel Start   0
+Batch 2: Read Kernel End     0
+
+Batch 1: Write Kernel Exec Time 0.000000 ms
+Batch 1: Read Kernel Exec Time  84.270916 ms
+Batch 2: Write Kernel Exec Time 168.483685 ms
+Batch 2: Read Kernel Exec Time  0.000000 ms
+
+Processed 536870912 unsigned ints in 168548.0820 us
+Read/Write Bandwidth = 12741 MB/s
+Kernel execution is complete.
+
+6 - Creating single kernel batched memcopy (Host->DDR->Host)
+Launching the kernel...
+
+Batch 1: Write Kernel Start  605572467025495.000000
+Batch 1: Write Kernel End    605572818130469.000000
+
+Batch 1: Write Kernel Exec Time 351104974.000000
+
+Processed 1073741824 unsigned ints in 351181.3850 us
+Read/Write Bandwidth = 12230 MB/s
+Kernel execution is complete.
+Read from DDR.
+
+3 - Creating memread kernel
+Launching the kernel...
+HW Kernel Exec Time 84.219508 ms
+Processed 268435456 unsigned ints in 84219507.9800 us using HW Counters
+Read Bandwidth HW = 12.75 MB/s
+
+Processed 268435456 unsigned ints in 84249.7013 us
+Read Bandwidth = 12745 MB/s
+Kernel execution is complete.
+
+4 - Creating memwrite kernel
+Launching the kernel...
+Avg Kernel Exec Time 84.256563 ms of 100 iterations
+
+Processed 268435456 unsigned ints in 84256563.1700 us using HW Counters
+Write Bandwidth HW = 12.74 MB/s
+
+Processed 268435456 unsigned ints in 84286.4754 us
+Write Bandwidth = 12739 MB/s
+Kernel execution is complete.
+
+7 - Creating Single kernel with both memread and memwrite kernel
+Launching the kernel...
+
+Kernel Start  605592216859282.000000
+Kernel End    605592338903206.000000
+
+Write Kernel Exec Time 122043924.000000
+
+Processed 268435456 unsigned ints in 122078.7551 us
+Write Bandwidth = 8795 MB/s
+Kernel execution is complete.
+
+8 - Overlapping Device Read and Write
+Copying to DDR
+Launching the kernel...
+Copying from DDR
+
+Kernel Start  605592423499228.000000
+Kernel End    605592515622573.000000
+
+Write Kernel Exec Time 92123345.000000
+
+Processed 536870912 unsigned ints in 92167.1130 us
+Full Duplex Bandwidth = 23300 MB/s
+Kernel execution is complete.
+
+10 - Working Batch
+Copying to DDR
+Launching the kernel...
+
+Kernel Start  605593731620016
+Kernel End    605593815840024
+Kernel Write1 Start  605593815872981
+Kernel Write1 End    605593907941654
+Kernel Write2 Start  0
+Kernel Write2 End    0
+Kernel2 Start  605593907971785
+Kernel2 End    605593992227955
+
+Kernel Exec Time 84.220008 ms
+1 Overlapping Kernel Exec Time  92.068673 ms
+2 Overlapping Kernel Exec Time 0.000000 ms
+Kernel2 Exec Time  84.256170 ms
+
+Processed 1073741824 unsigned ints in 260666.0880 us
+Full Duplex Bandwidth = 16477 MB/s
+Kernel execution is complete.
+Verification finished.

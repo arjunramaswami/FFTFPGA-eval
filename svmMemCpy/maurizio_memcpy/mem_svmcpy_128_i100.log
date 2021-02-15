@@ -1,0 +1,136 @@
+<3 Arguments given, assuming hardware execution mode.
+Using SDK as search string for platform.
+Using bin/mem_bandwidth_s10_svmddr_batch3.aocx as aocx name.
+Found 3 platforms!
+Trying to select platform SDK...
+1. Device: pac_s10_usm : Intel PAC Platform (pac_e400000)
+   1.1 Device version: OpenCL 1.0 Intel(R) FPGA SDK for OpenCL(TM), Version 20.3
+-- Choosing first device
+SVM enabled!
+Creating SVM buffers.
+Info: Using clSVMAllocIntelFPGAInfo: Using clSVMAllocIntelFPGAInfo: Using clSVMAllocIntelFPGACreating DDR buffers.
+Initializing data.
+Trying to load aocx: bin/mem_bandwidth_s10_svmddr_batch3.aocx
+0 - Creating nop kernel
+Launching the kernel...
+after kernel nop launch
+
+1 - Creating memcopy kernel (Host->Host)
+Launching the kernel...
+Processed 4194304 unsigned ints in 1491.7409 us
+Read/Write Bandwidth = 22493 MB/s
+Kernel execution is complete.
+
+5 - Creating memcopy_ddr kernel (DDR->DDR)
+Copying to DDR
+Launching the kernel...
+after kernel launch
+Processed 4194304 unsigned ints in 1062.7820 us
+Read/Write Bandwidth = 15786 MB/s
+Kernel execution is complete.
+Copying from DDR
+
+9 - Creating batched memcopy_to_ddr and memcopy_from_ddr kernel (Host->DDR->Host)
+Writing to device
+Launching the kernel...
+
+Batch 1: Write Kernel Start  0
+Batch 1: Write Kernel End    0
+Batch 1: Read Kernel Start   605725715845047
+Batch 1: Read Kernel End     605725717168185
+Batch 2: Write Kernel Start  605725715820081
+Batch 2: Write Kernel End    605725718461436
+Batch 2: Read Kernel Start   0
+Batch 2: Read Kernel End     0
+
+Batch 1: Write Kernel Exec Time 0.000000 ms
+Batch 1: Read Kernel Exec Time  1.323138 ms
+Batch 2: Write Kernel Exec Time 2.641355 ms
+Batch 2: Read Kernel Exec Time  0.000000 ms
+
+Processed 8388608 unsigned ints in 2690.1341 us
+Read/Write Bandwidth = 12473 MB/s
+Kernel execution is complete.
+
+6 - Creating single kernel batched memcopy (Host->DDR->Host)
+Launching the kernel...
+
+Batch 1: Write Kernel Start  605725738163718.000000
+Batch 1: Write Kernel End    605725743645915.000000
+
+Batch 1: Write Kernel Exec Time 5482197.000000
+
+Processed 16777216 unsigned ints in 5524.8480 us
+Read/Write Bandwidth = 12147 MB/s
+Kernel execution is complete.
+Read from DDR.
+
+3 - Creating memread kernel
+Launching the kernel...
+HW Kernel Exec Time 1.324448 ms
+Processed 4194304 unsigned ints in 1324447.8500 us using HW Counters
+Read Bandwidth HW = 12.67 MB/s
+
+Processed 4194304 unsigned ints in 1346.4524 us
+Read Bandwidth = 12460 MB/s
+Kernel execution is complete.
+
+4 - Creating memwrite kernel
+Launching the kernel...
+Avg Kernel Exec Time 1.320264 ms of 100 iterations
+
+Processed 4194304 unsigned ints in 1320263.8900 us using HW Counters
+Write Bandwidth HW = 12.71 MB/s
+
+Processed 4194304 unsigned ints in 1343.2134 us
+Write Bandwidth = 12490 MB/s
+Kernel execution is complete.
+
+7 - Creating Single kernel with both memread and memwrite kernel
+Launching the kernel...
+
+Kernel Start  605726051891957.000000
+Kernel End    605726053813698.000000
+
+Write Kernel Exec Time 1921741.000000
+
+Processed 4194304 unsigned ints in 1944.3550 us
+Write Bandwidth = 8629 MB/s
+Kernel execution is complete.
+
+8 - Overlapping Device Read and Write
+Copying to DDR
+Launching the kernel...
+Copying from DDR
+
+Kernel Start  605726055339061.000000
+Kernel End    605726056785176.000000
+
+Write Kernel Exec Time 1446115.000000
+
+Processed 8388608 unsigned ints in 1484.8179 us
+Full Duplex Bandwidth = 22598 MB/s
+Kernel execution is complete.
+
+10 - Working Batch
+Copying to DDR
+Launching the kernel...
+
+Kernel Start  605726075508940
+Kernel End    605726076833338
+Kernel Write1 Start  605726076868382
+Kernel Write1 End    605726078314453
+Kernel Write2 Start  0
+Kernel Write2 End    0
+Kernel2 Start  605726078342108
+Kernel2 End    605726079661503
+
+Kernel Exec Time 1.324398 ms
+1 Overlapping Kernel Exec Time  1.446071 ms
+2 Overlapping Kernel Exec Time 0.000000 ms
+Kernel2 Exec Time  1.319395 ms
+
+Processed 16777216 unsigned ints in 4188.1511 us
+Full Duplex Bandwidth = 16024 MB/s
+Kernel execution is complete.
+Verification finished.
