@@ -1,0 +1,538 @@
+
+CONFIGURATION: 
+---------------
+Bitstream    = ../../debug/bin/syn_32_conv3D/conv3D.aocx
+Points       = {32, 32, 32}
+Wisdom Path  = 
+FFTW Plan    = Measure
+Threads      = 1
+Iterations   = 100
+----------------
+
+Number of devices: 2
+ -- Choosing first device
+MMD INFO : Disabling SmartVID (fix) polling
+MMD INFO : Enabling SmartVID (fix) polling
+Iter: 0
+- Filter 
+    Exec: 0.147108    Host to Dev: 0.147108
+- Signal 
+    Exec: 0.060787    Inv : 0.060338    Host to Dev: 0.121382    Dev to Host: 0.209393
+Iter: 1
+- Filter 
+    Exec: 0.108274    Host to Dev: 0.108274
+- Signal 
+    Exec: 0.062022    Inv : 0.060458    Host to Dev: 0.101915    Dev to Host: 0.096936
+Iter: 2
+- Filter 
+    Exec: 0.107583    Host to Dev: 0.107583
+- Signal 
+    Exec: 0.058153    Inv : 0.059776    Host to Dev: 0.101818    Dev to Host: 0.101209
+Iter: 3
+- Filter 
+    Exec: 0.107737    Host to Dev: 0.107737
+- Signal 
+    Exec: 0.060087    Inv : 0.045419    Host to Dev: 0.101629    Dev to Host: 0.096046
+Iter: 4
+- Filter 
+    Exec: 0.109954    Host to Dev: 0.109954
+- Signal 
+    Exec: 0.060336    Inv : 0.059864    Host to Dev: 0.101219    Dev to Host: 0.0952
+Iter: 5
+- Filter 
+    Exec: 0.100526    Host to Dev: 0.100526
+- Signal 
+    Exec: 0.060009    Inv : 0.060721    Host to Dev: 0.108362    Dev to Host: 0.100149
+Iter: 6
+- Filter 
+    Exec: 0.102992    Host to Dev: 0.102992
+- Signal 
+    Exec: 0.060252    Inv : 0.059812    Host to Dev: 0.108299    Dev to Host: 0.09494
+Iter: 7
+- Filter 
+    Exec: 0.101061    Host to Dev: 0.101061
+- Signal 
+    Exec: 0.060321    Inv : 0.060061    Host to Dev: 0.108766    Dev to Host: 0.102038
+Iter: 8
+- Filter 
+    Exec: 0.102898    Host to Dev: 0.102898
+- Signal 
+    Exec: 0.060042    Inv : 0.061271    Host to Dev: 0.107535    Dev to Host: 0.094972
+Iter: 9
+- Filter 
+    Exec: 0.101544    Host to Dev: 0.101544
+- Signal 
+    Exec: 0.063283    Inv : 0.060221    Host to Dev: 0.107624    Dev to Host: 0.100439
+Iter: 10
+- Filter 
+    Exec: 0.108707    Host to Dev: 0.108707
+- Signal 
+    Exec: 0.06023    Inv : 0.060287    Host to Dev: 0.10112    Dev to Host: 0.095146
+Iter: 11
+- Filter 
+    Exec: 0.107646    Host to Dev: 0.107646
+- Signal 
+    Exec: 0.062535    Inv : 0.06034    Host to Dev: 0.102218    Dev to Host: 0.100424
+Iter: 12
+- Filter 
+    Exec: 0.110911    Host to Dev: 0.110911
+- Signal 
+    Exec: 0.060488    Inv : 0.060239    Host to Dev: 0.10193    Dev to Host: 0.096521
+Iter: 13
+- Filter 
+    Exec: 0.107498    Host to Dev: 0.107498
+- Signal 
+    Exec: 0.0604    Inv : 0.060467    Host to Dev: 0.101259    Dev to Host: 0.101093
+Iter: 14
+- Filter 
+    Exec: 0.110003    Host to Dev: 0.110003
+- Signal 
+    Exec: 0.062286    Inv : 0.060166    Host to Dev: 0.101365    Dev to Host: 0.095245
+Iter: 15
+- Filter 
+    Exec: 0.107869    Host to Dev: 0.107869
+- Signal 
+    Exec: 0.06238    Inv : 0.060579    Host to Dev: 0.108951    Dev to Host: 0.095334
+Iter: 16
+- Filter 
+    Exec: 0.103757    Host to Dev: 0.103757
+- Signal 
+    Exec: 0.062074    Inv : 0.060281    Host to Dev: 0.108423    Dev to Host: 0.101025
+Iter: 17
+- Filter 
+    Exec: 0.102509    Host to Dev: 0.102509
+- Signal 
+    Exec: 0.060265    Inv : 0.059715    Host to Dev: 0.108716    Dev to Host: 0.095861
+Iter: 18
+- Filter 
+    Exec: 0.102978    Host to Dev: 0.102978
+- Signal 
+    Exec: 0.058054    Inv : 0.060686    Host to Dev: 0.107831    Dev to Host: 0.100911
+Iter: 19
+- Filter 
+    Exec: 0.101438    Host to Dev: 0.101438
+- Signal 
+    Exec: 0.060977    Inv : 0.060356    Host to Dev: 0.107926    Dev to Host: 0.095589
+Iter: 20
+- Filter 
+    Exec: 0.101363    Host to Dev: 0.101363
+- Signal 
+    Exec: 0.062361    Inv : 0.060061    Host to Dev: 0.103022    Dev to Host: 0.100763
+Iter: 21
+- Filter 
+    Exec: 0.107967    Host to Dev: 0.107967
+- Signal 
+    Exec: 0.06215    Inv : 0.059917    Host to Dev: 0.101633    Dev to Host: 0.095447
+Iter: 22
+- Filter 
+    Exec: 0.107803    Host to Dev: 0.107803
+- Signal 
+    Exec: 0.060416    Inv : 0.063555    Host to Dev: 0.101818    Dev to Host: 0.10116
+Iter: 23
+- Filter 
+    Exec: 0.107585    Host to Dev: 0.107585
+- Signal 
+    Exec: 0.060376    Inv : 0.060466    Host to Dev: 0.101408    Dev to Host: 0.095316
+Iter: 24
+- Filter 
+    Exec: 0.108009    Host to Dev: 0.108009
+- Signal 
+    Exec: 0.06052    Inv : 0.059625    Host to Dev: 0.102756    Dev to Host: 0.10112
+Iter: 25
+- Filter 
+    Exec: 0.108618    Host to Dev: 0.108618
+- Signal 
+    Exec: 0.057848    Inv : 0.06025    Host to Dev: 0.102129    Dev to Host: 0.094808
+Iter: 26
+- Filter 
+    Exec: 0.101007    Host to Dev: 0.101007
+- Signal 
+    Exec: 0.060587    Inv : 0.059768    Host to Dev: 0.109621    Dev to Host: 0.096761
+Iter: 27
+- Filter 
+    Exec: 0.100992    Host to Dev: 0.100992
+- Signal 
+    Exec: 0.060884    Inv : 0.061752    Host to Dev: 0.107413    Dev to Host: 0.100797
+Iter: 28
+- Filter 
+    Exec: 0.101364    Host to Dev: 0.101364
+- Signal 
+    Exec: 0.06015    Inv : 0.059589    Host to Dev: 0.109488    Dev to Host: 0.095433
+Iter: 29
+- Filter 
+    Exec: 0.101328    Host to Dev: 0.101328
+- Signal 
+    Exec: 0.060139    Inv : 0.059925    Host to Dev: 0.10895    Dev to Host: 0.100705
+Iter: 30
+- Filter 
+    Exec: 0.101393    Host to Dev: 0.101393
+- Signal 
+    Exec: 0.060293    Inv : 0.059942    Host to Dev: 0.110906    Dev to Host: 0.095264
+Iter: 31
+- Filter 
+    Exec: 0.102811    Host to Dev: 0.102811
+- Signal 
+    Exec: 0.058146    Inv : 0.059989    Host to Dev: 0.100937    Dev to Host: 0.102027
+Iter: 32
+- Filter 
+    Exec: 0.107999    Host to Dev: 0.107999
+- Signal 
+    Exec: 0.059564    Inv : 0.059828    Host to Dev: 0.103158    Dev to Host: 0.095938
+Iter: 33
+- Filter 
+    Exec: 0.108369    Host to Dev: 0.108369
+- Signal 
+    Exec: 0.063595    Inv : 0.060282    Host to Dev: 0.100963    Dev to Host: 0.101003
+Iter: 34
+- Filter 
+    Exec: 0.107654    Host to Dev: 0.107654
+- Signal 
+    Exec: 0.060493    Inv : 0.060274    Host to Dev: 0.102843    Dev to Host: 0.094782
+Iter: 35
+- Filter 
+    Exec: 0.107208    Host to Dev: 0.107208
+- Signal 
+    Exec: 0.060518    Inv : 0.059945    Host to Dev: 0.10127    Dev to Host: 0.101906
+Iter: 36
+- Filter 
+    Exec: 0.108958    Host to Dev: 0.108958
+- Signal 
+    Exec: 0.0622    Inv : 0.060247    Host to Dev: 0.103518    Dev to Host: 0.095372
+Iter: 37
+- Filter 
+    Exec: 0.101638    Host to Dev: 0.101638
+- Signal 
+    Exec: 0.064895    Inv : 0.060163    Host to Dev: 0.107749    Dev to Host: 0.095525
+Iter: 38
+- Filter 
+    Exec: 0.102194    Host to Dev: 0.102194
+- Signal 
+    Exec: 0.060754    Inv : 0.059629    Host to Dev: 0.109129    Dev to Host: 0.100601
+Iter: 39
+- Filter 
+    Exec: 0.100978    Host to Dev: 0.100978
+- Signal 
+    Exec: 0.059796    Inv : 0.059686    Host to Dev: 0.108724    Dev to Host: 0.095269
+Iter: 40
+- Filter 
+    Exec: 0.103185    Host to Dev: 0.103185
+- Signal 
+    Exec: 0.062502    Inv : 0.059953    Host to Dev: 0.107947    Dev to Host: 0.106175
+Iter: 41
+- Filter 
+    Exec: 0.104558    Host to Dev: 0.104558
+- Signal 
+    Exec: 0.058879    Inv : 0.060564    Host to Dev: 0.110795    Dev to Host: 0.095893
+Iter: 42
+- Filter 
+    Exec: 0.107396    Host to Dev: 0.107396
+- Signal 
+    Exec: 0.06041    Inv : 0.060128    Host to Dev: 0.104082    Dev to Host: 0.10095
+Iter: 43
+- Filter 
+    Exec: 0.107975    Host to Dev: 0.107975
+- Signal 
+    Exec: 0.060237    Inv : 0.059726    Host to Dev: 0.101586    Dev to Host: 0.095215
+Iter: 44
+- Filter 
+    Exec: 0.108035    Host to Dev: 0.108035
+- Signal 
+    Exec: 0.062589    Inv : 0.060911    Host to Dev: 0.101073    Dev to Host: 0.102325
+Iter: 45
+- Filter 
+    Exec: 0.10726    Host to Dev: 0.10726
+- Signal 
+    Exec: 0.060586    Inv : 0.060223    Host to Dev: 0.100987    Dev to Host: 0.095387
+Iter: 46
+- Filter 
+    Exec: 0.108252    Host to Dev: 0.108252
+- Signal 
+    Exec: 0.060365    Inv : 0.060302    Host to Dev: 0.101397    Dev to Host: 0.101668
+Iter: 47
+- Filter 
+    Exec: 0.107315    Host to Dev: 0.107315
+- Signal 
+    Exec: 0.060357    Inv : 0.060528    Host to Dev: 0.107062    Dev to Host: 0.101037
+Iter: 48
+- Filter 
+    Exec: 0.102402    Host to Dev: 0.102402
+- Signal 
+    Exec: 0.058384    Inv : 0.059924    Host to Dev: 0.107343    Dev to Host: 0.097472
+Iter: 49
+- Filter 
+    Exec: 0.100966    Host to Dev: 0.100966
+- Signal 
+    Exec: 0.057929    Inv : 0.060515    Host to Dev: 0.108075    Dev to Host: 0.101428
+Iter: 50
+- Filter 
+    Exec: 0.102052    Host to Dev: 0.102052
+- Signal 
+    Exec: 0.062904    Inv : 0.059707    Host to Dev: 0.1076    Dev to Host: 0.097252
+Iter: 51
+- Filter 
+    Exec: 0.100906    Host to Dev: 0.100906
+- Signal 
+    Exec: 0.062128    Inv : 0.060002    Host to Dev: 0.1089    Dev to Host: 0.100725
+Iter: 52
+- Filter 
+    Exec: 0.101289    Host to Dev: 0.101289
+- Signal 
+    Exec: 0.06212    Inv : 0.060044    Host to Dev: 0.101714    Dev to Host: 0.099441
+Iter: 53
+- Filter 
+    Exec: 0.108164    Host to Dev: 0.108164
+- Signal 
+    Exec: 0.061016    Inv : 0.060945    Host to Dev: 0.101149    Dev to Host: 0.100852
+Iter: 54
+- Filter 
+    Exec: 0.108179    Host to Dev: 0.108179
+- Signal 
+    Exec: 0.065895    Inv : 0.059794    Host to Dev: 0.101923    Dev to Host: 0.096516
+Iter: 55
+- Filter 
+    Exec: 0.10767    Host to Dev: 0.10767
+- Signal 
+    Exec: 0.060176    Inv : 0.060076    Host to Dev: 0.106794    Dev to Host: 0.100927
+Iter: 56
+- Filter 
+    Exec: 0.107949    Host to Dev: 0.107949
+- Signal 
+    Exec: 0.062314    Inv : 0.059888    Host to Dev: 0.102039    Dev to Host: 0.097099
+Iter: 57
+- Filter 
+    Exec: 0.110358    Host to Dev: 0.110358
+- Signal 
+    Exec: 0.062408    Inv : 0.063735    Host to Dev: 0.101951    Dev to Host: 0.101254
+Iter: 58
+- Filter 
+    Exec: 0.101461    Host to Dev: 0.101461
+- Signal 
+    Exec: 0.060488    Inv : 0.060017    Host to Dev: 0.107351    Dev to Host: 0.102892
+Iter: 59
+- Filter 
+    Exec: 0.101762    Host to Dev: 0.101762
+- Signal 
+    Exec: 0.060447    Inv : 0.060369    Host to Dev: 0.107687    Dev to Host: 0.095092
+Iter: 60
+- Filter 
+    Exec: 0.101175    Host to Dev: 0.101175
+- Signal 
+    Exec: 0.058028    Inv : 0.059951    Host to Dev: 0.108297    Dev to Host: 0.102731
+Iter: 61
+- Filter 
+    Exec: 0.103483    Host to Dev: 0.103483
+- Signal 
+    Exec: 0.06217    Inv : 0.060102    Host to Dev: 0.107604    Dev to Host: 0.099906
+Iter: 62
+- Filter 
+    Exec: 0.101415    Host to Dev: 0.101415
+- Signal 
+    Exec: 0.060096    Inv : 0.06026    Host to Dev: 0.107848    Dev to Host: 0.102491
+Iter: 63
+- Filter 
+    Exec: 0.101576    Host to Dev: 0.101576
+- Signal 
+    Exec: 0.062507    Inv : 0.059962    Host to Dev: 0.101325    Dev to Host: 0.095401
+Iter: 64
+- Filter 
+    Exec: 0.108524    Host to Dev: 0.108524
+- Signal 
+    Exec: 0.060407    Inv : 0.059673    Host to Dev: 0.101688    Dev to Host: 0.100835
+Iter: 65
+- Filter 
+    Exec: 0.109827    Host to Dev: 0.109827
+- Signal 
+    Exec: 0.060654    Inv : 0.060395    Host to Dev: 0.10162    Dev to Host: 0.09726
+Iter: 66
+- Filter 
+    Exec: 0.108095    Host to Dev: 0.108095
+- Signal 
+    Exec: 0.060376    Inv : 0.060373    Host to Dev: 0.102281    Dev to Host: 0.10159
+Iter: 67
+- Filter 
+    Exec: 0.110289    Host to Dev: 0.110289
+- Signal 
+    Exec: 0.062314    Inv : 0.059835    Host to Dev: 0.101544    Dev to Host: 0.095256
+Iter: 68
+- Filter 
+    Exec: 0.108537    Host to Dev: 0.108537
+- Signal 
+    Exec: 0.060866    Inv : 0.059649    Host to Dev: 0.10329    Dev to Host: 0.095459
+Iter: 69
+- Filter 
+    Exec: 0.103071    Host to Dev: 0.103071
+- Signal 
+    Exec: 0.060303    Inv : 0.060013    Host to Dev: 0.108194    Dev to Host: 0.100458
+Iter: 70
+- Filter 
+    Exec: 0.103302    Host to Dev: 0.103302
+- Signal 
+    Exec: 0.058178    Inv : 0.05976    Host to Dev: 0.107563    Dev to Host: 0.095601
+Iter: 71
+- Filter 
+    Exec: 0.102638    Host to Dev: 0.102638
+- Signal 
+    Exec: 0.062293    Inv : 0.059584    Host to Dev: 0.108202    Dev to Host: 0.10112
+Iter: 72
+- Filter 
+    Exec: 0.101788    Host to Dev: 0.101788
+- Signal 
+    Exec: 0.060785    Inv : 0.060111    Host to Dev: 0.108027    Dev to Host: 0.095346
+Iter: 73
+- Filter 
+    Exec: 0.102464    Host to Dev: 0.102464
+- Signal 
+    Exec: 0.060283    Inv : 0.060135    Host to Dev: 0.109633    Dev to Host: 0.100545
+Iter: 74
+- Filter 
+    Exec: 0.111949    Host to Dev: 0.111949
+- Signal 
+    Exec: 0.060278    Inv : 0.060311    Host to Dev: 0.100945    Dev to Host: 0.097226
+Iter: 75
+- Filter 
+    Exec: 0.108969    Host to Dev: 0.108969
+- Signal 
+    Exec: 0.060192    Inv : 0.060104    Host to Dev: 0.101105    Dev to Host: 0.101284
+Iter: 76
+- Filter 
+    Exec: 0.108099    Host to Dev: 0.108099
+- Signal 
+    Exec: 0.060931    Inv : 0.059754    Host to Dev: 0.101444    Dev to Host: 0.09493
+Iter: 77
+- Filter 
+    Exec: 0.109803    Host to Dev: 0.109803
+- Signal 
+    Exec: 0.060383    Inv : 0.060255    Host to Dev: 0.103626    Dev to Host: 0.100667
+Iter: 78
+- Filter 
+    Exec: 0.107897    Host to Dev: 0.107897
+- Signal 
+    Exec: 0.062565    Inv : 0.060089    Host to Dev: 0.101746    Dev to Host: 0.095064
+Iter: 79
+- Filter 
+    Exec: 0.109643    Host to Dev: 0.109643
+- Signal 
+    Exec: 0.062051    Inv : 0.060337    Host to Dev: 0.107565    Dev to Host: 0.095727
+Iter: 80
+- Filter 
+    Exec: 0.101313    Host to Dev: 0.101313
+- Signal 
+    Exec: 0.065544    Inv : 0.060289    Host to Dev: 0.108613    Dev to Host: 0.10118
+Iter: 81
+- Filter 
+    Exec: 0.101145    Host to Dev: 0.101145
+- Signal 
+    Exec: 0.062446    Inv : 0.060036    Host to Dev: 0.10781    Dev to Host: 0.095219
+Iter: 82
+- Filter 
+    Exec: 0.101072    Host to Dev: 0.101072
+- Signal 
+    Exec: 0.062335    Inv : 0.059668    Host to Dev: 0.108627    Dev to Host: 0.100203
+Iter: 83
+- Filter 
+    Exec: 0.101551    Host to Dev: 0.101551
+- Signal 
+    Exec: 0.060471    Inv : 0.059696    Host to Dev: 0.109223    Dev to Host: 0.095841
+Iter: 84
+- Filter 
+    Exec: 0.101255    Host to Dev: 0.101255
+- Signal 
+    Exec: 0.058076    Inv : 0.060235    Host to Dev: 0.101716    Dev to Host: 0.100797
+Iter: 85
+- Filter 
+    Exec: 0.108041    Host to Dev: 0.108041
+- Signal 
+    Exec: 0.062157    Inv : 0.060154    Host to Dev: 0.104166    Dev to Host: 0.095259
+Iter: 86
+- Filter 
+    Exec: 0.108212    Host to Dev: 0.108212
+- Signal 
+    Exec: 0.060095    Inv : 0.060164    Host to Dev: 0.102716    Dev to Host: 0.100624
+Iter: 87
+- Filter 
+    Exec: 0.108128    Host to Dev: 0.108128
+- Signal 
+    Exec: 0.060429    Inv : 0.060708    Host to Dev: 0.103523    Dev to Host: 0.096916
+Iter: 88
+- Filter 
+    Exec: 0.108243    Host to Dev: 0.108243
+- Signal 
+    Exec: 0.060072    Inv : 0.060514    Host to Dev: 0.101154    Dev to Host: 0.100897
+Iter: 89
+- Filter 
+    Exec: 0.108408    Host to Dev: 0.108408
+- Signal 
+    Exec: 0.061056    Inv : 0.060468    Host to Dev: 0.102887    Dev to Host: 0.095568
+Iter: 90
+- Filter 
+    Exec: 0.10129    Host to Dev: 0.10129
+- Signal 
+    Exec: 0.06019    Inv : 0.060334    Host to Dev: 0.109418    Dev to Host: 0.095443
+Iter: 91
+- Filter 
+    Exec: 0.10118    Host to Dev: 0.10118
+- Signal 
+    Exec: 0.062175    Inv : 0.060058    Host to Dev: 0.109931    Dev to Host: 0.100813
+Iter: 92
+- Filter 
+    Exec: 0.102214    Host to Dev: 0.102214
+- Signal 
+    Exec: 0.060171    Inv : 0.060877    Host to Dev: 0.120002    Dev to Host: 0.095515
+Iter: 93
+- Filter 
+    Exec: 0.101451    Host to Dev: 0.101451
+- Signal 
+    Exec: 0.065134    Inv : 0.060164    Host to Dev: 0.110091    Dev to Host: 0.101198
+Iter: 94
+- Filter 
+    Exec: 0.101163    Host to Dev: 0.101163
+- Signal 
+    Exec: 0.060165    Inv : 0.059702    Host to Dev: 0.109443    Dev to Host: 0.09509
+Iter: 95
+- Filter 
+    Exec: 0.102185    Host to Dev: 0.102185
+- Signal 
+    Exec: 0.060301    Inv : 0.060459    Host to Dev: 0.101221    Dev to Host: 0.100881
+Iter: 96
+- Filter 
+    Exec: 0.109776    Host to Dev: 0.109776
+- Signal 
+    Exec: 0.062645    Inv : 0.060954    Host to Dev: 0.101675    Dev to Host: 0.096705
+Iter: 97
+- Filter 
+    Exec: 0.107917    Host to Dev: 0.107917
+- Signal 
+    Exec: 0.060212    Inv : 0.060468    Host to Dev: 0.101431    Dev to Host: 0.100456
+Iter: 98
+- Filter 
+    Exec: 0.107779    Host to Dev: 0.107779
+- Signal 
+    Exec: 0.062412    Inv : 0.059746    Host to Dev: 0.101119    Dev to Host: 0.095812
+Iter: 99
+- Filter 
+    Exec: 0.108039    Host to Dev: 0.108039
+- Signal 
+    Exec: 0.062519    Inv : 0.060088    Host to Dev: 0.103072    Dev to Host: 0.100873
+
+
+MEASUREMENTS in ms
+--------------
+Points                 : 32^3
+Iterations             : 100
+
+FPGA:
+-----
+- Filter:
+  PCIe Host to Device : 0.105683
+  Execution           : 0.0606125
+
+- Signal Convolution:
+  PCIe Host to Device : 0.105246
+  FFT + Conv          : 0.0609706
+  Inverse FFT         : 0.0600874
+  Total Computation   : 0.120175
+  PCIe Device to Host : 0.0995225
+
+- Total API Time: 
+  Runtime             : 1.22022
+

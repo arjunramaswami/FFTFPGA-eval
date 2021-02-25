@@ -1,0 +1,538 @@
+
+CONFIGURATION: 
+---------------
+Bitstream    = syn_128_conv3D/conv3D.aocx
+Points       = {128, 128, 128}
+Wisdom Path  = 
+FFTW Plan    = Measure
+Threads      = 1
+Iterations   = 100
+----------------
+
+Number of devices: 2
+ -- Choosing first device
+MMD INFO : Disabling SmartVID (fix) polling
+MMD INFO : Enabling SmartVID (fix) polling
+Iter: 0
+- Filter 
+    Exec: 2.86059    Host to Dev: 2.86059
+- Signal 
+    Exec: 2.74652    Inv : 2.74136    Host to Dev: 2.79899    Dev to Host: 5.12099
+Iter: 1
+- Filter 
+    Exec: 2.78666    Host to Dev: 2.78666
+- Signal 
+    Exec: 2.74689    Inv : 2.74156    Host to Dev: 2.79151    Dev to Host: 2.6927
+Iter: 2
+- Filter 
+    Exec: 2.79312    Host to Dev: 2.79312
+- Signal 
+    Exec: 2.74664    Inv : 2.74175    Host to Dev: 2.77621    Dev to Host: 2.69085
+Iter: 3
+- Filter 
+    Exec: 2.78783    Host to Dev: 2.78783
+- Signal 
+    Exec: 2.74652    Inv : 2.74176    Host to Dev: 2.76466    Dev to Host: 2.68972
+Iter: 4
+- Filter 
+    Exec: 2.7798    Host to Dev: 2.7798
+- Signal 
+    Exec: 2.74664    Inv : 2.74182    Host to Dev: 2.76085    Dev to Host: 2.68935
+Iter: 5
+- Filter 
+    Exec: 2.7701    Host to Dev: 2.7701
+- Signal 
+    Exec: 2.74661    Inv : 2.74221    Host to Dev: 2.75962    Dev to Host: 2.69004
+Iter: 6
+- Filter 
+    Exec: 2.77106    Host to Dev: 2.77106
+- Signal 
+    Exec: 2.7461    Inv : 2.74205    Host to Dev: 2.76556    Dev to Host: 2.6902
+Iter: 7
+- Filter 
+    Exec: 2.77483    Host to Dev: 2.77483
+- Signal 
+    Exec: 2.74733    Inv : 2.74167    Host to Dev: 2.76166    Dev to Host: 2.69643
+Iter: 8
+- Filter 
+    Exec: 2.77045    Host to Dev: 2.77045
+- Signal 
+    Exec: 2.74636    Inv : 2.74177    Host to Dev: 2.76788    Dev to Host: 2.70177
+Iter: 9
+- Filter 
+    Exec: 2.77933    Host to Dev: 2.77933
+- Signal 
+    Exec: 2.74638    Inv : 2.74195    Host to Dev: 2.76751    Dev to Host: 2.70352
+Iter: 10
+- Filter 
+    Exec: 2.77324    Host to Dev: 2.77324
+- Signal 
+    Exec: 2.74701    Inv : 2.74172    Host to Dev: 2.77638    Dev to Host: 2.71297
+Iter: 11
+- Filter 
+    Exec: 2.77214    Host to Dev: 2.77214
+- Signal 
+    Exec: 2.74691    Inv : 2.74172    Host to Dev: 2.78706    Dev to Host: 2.71743
+Iter: 12
+- Filter 
+    Exec: 2.77707    Host to Dev: 2.77707
+- Signal 
+    Exec: 2.74699    Inv : 2.74146    Host to Dev: 2.78958    Dev to Host: 2.71315
+Iter: 13
+- Filter 
+    Exec: 2.78666    Host to Dev: 2.78666
+- Signal 
+    Exec: 2.747    Inv : 2.74189    Host to Dev: 2.77081    Dev to Host: 2.70005
+Iter: 14
+- Filter 
+    Exec: 2.7821    Host to Dev: 2.7821
+- Signal 
+    Exec: 2.74659    Inv : 2.74154    Host to Dev: 2.7659    Dev to Host: 2.69896
+Iter: 15
+- Filter 
+    Exec: 2.77422    Host to Dev: 2.77422
+- Signal 
+    Exec: 2.74684    Inv : 2.74158    Host to Dev: 2.76077    Dev to Host: 2.69522
+Iter: 16
+- Filter 
+    Exec: 2.76697    Host to Dev: 2.76697
+- Signal 
+    Exec: 2.74677    Inv : 2.74169    Host to Dev: 2.7631    Dev to Host: 2.69055
+Iter: 17
+- Filter 
+    Exec: 2.76958    Host to Dev: 2.76958
+- Signal 
+    Exec: 2.74653    Inv : 2.74187    Host to Dev: 2.75948    Dev to Host: 2.68426
+Iter: 18
+- Filter 
+    Exec: 2.77089    Host to Dev: 2.77089
+- Signal 
+    Exec: 2.74686    Inv : 2.742    Host to Dev: 2.76499    Dev to Host: 2.68351
+Iter: 19
+- Filter 
+    Exec: 2.77435    Host to Dev: 2.77435
+- Signal 
+    Exec: 2.74724    Inv : 2.74139    Host to Dev: 2.76742    Dev to Host: 2.68342
+Iter: 20
+- Filter 
+    Exec: 2.77408    Host to Dev: 2.77408
+- Signal 
+    Exec: 2.74653    Inv : 2.74187    Host to Dev: 2.77429    Dev to Host: 2.68517
+Iter: 21
+- Filter 
+    Exec: 2.77715    Host to Dev: 2.77715
+- Signal 
+    Exec: 2.74746    Inv : 2.74137    Host to Dev: 2.777    Dev to Host: 2.68527
+Iter: 22
+- Filter 
+    Exec: 2.77233    Host to Dev: 2.77233
+- Signal 
+    Exec: 2.74635    Inv : 2.74211    Host to Dev: 2.78814    Dev to Host: 2.68736
+Iter: 23
+- Filter 
+    Exec: 2.78377    Host to Dev: 2.78377
+- Signal 
+    Exec: 2.7479    Inv : 2.74157    Host to Dev: 2.77402    Dev to Host: 2.68876
+Iter: 24
+- Filter 
+    Exec: 2.78322    Host to Dev: 2.78322
+- Signal 
+    Exec: 2.74665    Inv : 2.74183    Host to Dev: 2.7723    Dev to Host: 2.69022
+Iter: 25
+- Filter 
+    Exec: 2.78124    Host to Dev: 2.78124
+- Signal 
+    Exec: 2.74744    Inv : 2.74242    Host to Dev: 2.76621    Dev to Host: 2.68974
+Iter: 26
+- Filter 
+    Exec: 2.77463    Host to Dev: 2.77463
+- Signal 
+    Exec: 2.74655    Inv : 2.74444    Host to Dev: 2.76167    Dev to Host: 2.68875
+Iter: 27
+- Filter 
+    Exec: 2.7695    Host to Dev: 2.7695
+- Signal 
+    Exec: 2.74736    Inv : 2.74185    Host to Dev: 2.76229    Dev to Host: 2.69168
+Iter: 28
+- Filter 
+    Exec: 2.77014    Host to Dev: 2.77014
+- Signal 
+    Exec: 2.74909    Inv : 2.74193    Host to Dev: 2.76461    Dev to Host: 2.69328
+Iter: 29
+- Filter 
+    Exec: 2.76951    Host to Dev: 2.76951
+- Signal 
+    Exec: 2.74696    Inv : 2.74193    Host to Dev: 2.7629    Dev to Host: 2.69963
+Iter: 30
+- Filter 
+    Exec: 2.77355    Host to Dev: 2.77355
+- Signal 
+    Exec: 2.7466    Inv : 2.74158    Host to Dev: 2.76299    Dev to Host: 2.70236
+Iter: 31
+- Filter 
+    Exec: 2.77806    Host to Dev: 2.77806
+- Signal 
+    Exec: 2.74688    Inv : 2.74119    Host to Dev: 2.77412    Dev to Host: 2.71026
+Iter: 32
+- Filter 
+    Exec: 2.77659    Host to Dev: 2.77659
+- Signal 
+    Exec: 2.74731    Inv : 2.74173    Host to Dev: 2.78618    Dev to Host: 2.71394
+Iter: 33
+- Filter 
+    Exec: 2.78103    Host to Dev: 2.78103
+- Signal 
+    Exec: 2.74701    Inv : 2.74117    Host to Dev: 2.79186    Dev to Host: 2.71432
+Iter: 34
+- Filter 
+    Exec: 2.78944    Host to Dev: 2.78944
+- Signal 
+    Exec: 2.74646    Inv : 2.74192    Host to Dev: 2.77839    Dev to Host: 2.702
+Iter: 35
+- Filter 
+    Exec: 2.7837    Host to Dev: 2.7837
+- Signal 
+    Exec: 2.7465    Inv : 2.74147    Host to Dev: 2.76849    Dev to Host: 2.69791
+Iter: 36
+- Filter 
+    Exec: 2.77672    Host to Dev: 2.77672
+- Signal 
+    Exec: 2.74653    Inv : 2.74238    Host to Dev: 2.76419    Dev to Host: 2.69646
+Iter: 37
+- Filter 
+    Exec: 2.77287    Host to Dev: 2.77287
+- Signal 
+    Exec: 2.74671    Inv : 2.74166    Host to Dev: 2.75744    Dev to Host: 2.69182
+Iter: 38
+- Filter 
+    Exec: 2.7688    Host to Dev: 2.7688
+- Signal 
+    Exec: 2.74631    Inv : 2.74376    Host to Dev: 2.7618    Dev to Host: 2.68685
+Iter: 39
+- Filter 
+    Exec: 2.77098    Host to Dev: 2.77098
+- Signal 
+    Exec: 2.73524    Inv : 2.74144    Host to Dev: 2.76134    Dev to Host: 2.68283
+Iter: 40
+- Filter 
+    Exec: 2.77266    Host to Dev: 2.77266
+- Signal 
+    Exec: 2.74677    Inv : 2.74197    Host to Dev: 2.76824    Dev to Host: 2.68247
+Iter: 41
+- Filter 
+    Exec: 2.77151    Host to Dev: 2.77151
+- Signal 
+    Exec: 2.74629    Inv : 2.7418    Host to Dev: 2.77057    Dev to Host: 2.68392
+Iter: 42
+- Filter 
+    Exec: 2.77635    Host to Dev: 2.77635
+- Signal 
+    Exec: 2.74664    Inv : 2.74144    Host to Dev: 2.78195    Dev to Host: 2.68581
+Iter: 43
+- Filter 
+    Exec: 2.7731    Host to Dev: 2.7731
+- Signal 
+    Exec: 2.74664    Inv : 2.74182    Host to Dev: 2.78198    Dev to Host: 2.68651
+Iter: 44
+- Filter 
+    Exec: 2.78078    Host to Dev: 2.78078
+- Signal 
+    Exec: 2.74679    Inv : 2.74152    Host to Dev: 2.788    Dev to Host: 2.68748
+Iter: 45
+- Filter 
+    Exec: 2.78823    Host to Dev: 2.78823
+- Signal 
+    Exec: 2.74655    Inv : 2.74154    Host to Dev: 2.77214    Dev to Host: 2.68752
+Iter: 46
+- Filter 
+    Exec: 2.78097    Host to Dev: 2.78097
+- Signal 
+    Exec: 2.74642    Inv : 2.74444    Host to Dev: 2.76505    Dev to Host: 2.68648
+Iter: 47
+- Filter 
+    Exec: 2.77384    Host to Dev: 2.77384
+- Signal 
+    Exec: 2.7462    Inv : 2.74148    Host to Dev: 2.76117    Dev to Host: 2.68791
+Iter: 48
+- Filter 
+    Exec: 2.77269    Host to Dev: 2.77269
+- Signal 
+    Exec: 2.74695    Inv : 2.74174    Host to Dev: 2.76179    Dev to Host: 2.68819
+Iter: 49
+- Filter 
+    Exec: 2.7702    Host to Dev: 2.7702
+- Signal 
+    Exec: 2.74708    Inv : 2.74204    Host to Dev: 2.75838    Dev to Host: 2.69624
+Iter: 50
+- Filter 
+    Exec: 2.77503    Host to Dev: 2.77503
+- Signal 
+    Exec: 2.73656    Inv : 2.74231    Host to Dev: 2.76484    Dev to Host: 2.6969
+Iter: 51
+- Filter 
+    Exec: 2.77482    Host to Dev: 2.77482
+- Signal 
+    Exec: 2.75087    Inv : 2.74156    Host to Dev: 2.76639    Dev to Host: 2.70105
+Iter: 52
+- Filter 
+    Exec: 2.77182    Host to Dev: 2.77182
+- Signal 
+    Exec: 2.74669    Inv : 2.74167    Host to Dev: 2.77488    Dev to Host: 2.70641
+Iter: 53
+- Filter 
+    Exec: 2.77602    Host to Dev: 2.77602
+- Signal 
+    Exec: 2.74633    Inv : 2.74217    Host to Dev: 2.78059    Dev to Host: 2.70965
+Iter: 54
+- Filter 
+    Exec: 2.77392    Host to Dev: 2.77392
+- Signal 
+    Exec: 2.74643    Inv : 2.74189    Host to Dev: 2.79038    Dev to Host: 2.71471
+Iter: 55
+- Filter 
+    Exec: 2.7863    Host to Dev: 2.7863
+- Signal 
+    Exec: 2.74658    Inv : 2.7419    Host to Dev: 2.76868    Dev to Host: 2.70174
+Iter: 56
+- Filter 
+    Exec: 2.79058    Host to Dev: 2.79058
+- Signal 
+    Exec: 2.74677    Inv : 2.74221    Host to Dev: 2.77282    Dev to Host: 2.70102
+Iter: 57
+- Filter 
+    Exec: 2.77748    Host to Dev: 2.77748
+- Signal 
+    Exec: 2.74694    Inv : 2.74161    Host to Dev: 2.76007    Dev to Host: 2.69613
+Iter: 58
+- Filter 
+    Exec: 2.76808    Host to Dev: 2.76808
+- Signal 
+    Exec: 2.74663    Inv : 2.74163    Host to Dev: 2.76089    Dev to Host: 2.69241
+Iter: 59
+- Filter 
+    Exec: 2.76744    Host to Dev: 2.76744
+- Signal 
+    Exec: 2.74623    Inv : 2.74153    Host to Dev: 2.75919    Dev to Host: 2.68945
+Iter: 60
+- Filter 
+    Exec: 2.77121    Host to Dev: 2.77121
+- Signal 
+    Exec: 2.74665    Inv : 2.74372    Host to Dev: 2.7658    Dev to Host: 2.68215
+Iter: 61
+- Filter 
+    Exec: 2.7732    Host to Dev: 2.7732
+- Signal 
+    Exec: 2.73507    Inv : 2.74163    Host to Dev: 2.76134    Dev to Host: 2.68166
+Iter: 62
+- Filter 
+    Exec: 2.77463    Host to Dev: 2.77463
+- Signal 
+    Exec: 2.74713    Inv : 2.7424    Host to Dev: 2.76386    Dev to Host: 2.68303
+Iter: 63
+- Filter 
+    Exec: 2.77325    Host to Dev: 2.77325
+- Signal 
+    Exec: 2.7468    Inv : 2.74142    Host to Dev: 2.77376    Dev to Host: 2.68503
+Iter: 64
+- Filter 
+    Exec: 2.77364    Host to Dev: 2.77364
+- Signal 
+    Exec: 2.74691    Inv : 2.7419    Host to Dev: 2.78519    Dev to Host: 2.68843
+Iter: 65
+- Filter 
+    Exec: 2.77653    Host to Dev: 2.77653
+- Signal 
+    Exec: 2.74643    Inv : 2.74174    Host to Dev: 2.79184    Dev to Host: 2.68625
+Iter: 66
+- Filter 
+    Exec: 2.78909    Host to Dev: 2.78909
+- Signal 
+    Exec: 2.74631    Inv : 2.74156    Host to Dev: 2.77381    Dev to Host: 2.68954
+Iter: 67
+- Filter 
+    Exec: 2.78434    Host to Dev: 2.78434
+- Signal 
+    Exec: 2.74705    Inv : 2.74193    Host to Dev: 2.76487    Dev to Host: 2.68786
+Iter: 68
+- Filter 
+    Exec: 2.77839    Host to Dev: 2.77839
+- Signal 
+    Exec: 2.7468    Inv : 2.74198    Host to Dev: 2.76555    Dev to Host: 2.69008
+Iter: 69
+- Filter 
+    Exec: 2.76611    Host to Dev: 2.76611
+- Signal 
+    Exec: 2.74694    Inv : 2.74153    Host to Dev: 2.75748    Dev to Host: 2.68745
+Iter: 70
+- Filter 
+    Exec: 2.76469    Host to Dev: 2.76469
+- Signal 
+    Exec: 2.74748    Inv : 2.74119    Host to Dev: 2.76344    Dev to Host: 2.6941
+Iter: 71
+- Filter 
+    Exec: 2.76907    Host to Dev: 2.76907
+- Signal 
+    Exec: 2.7468    Inv : 2.74172    Host to Dev: 2.76184    Dev to Host: 2.69597
+Iter: 72
+- Filter 
+    Exec: 2.77121    Host to Dev: 2.77121
+- Signal 
+    Exec: 2.74678    Inv : 2.74184    Host to Dev: 2.76346    Dev to Host: 2.6992
+Iter: 73
+- Filter 
+    Exec: 2.7742    Host to Dev: 2.7742
+- Signal 
+    Exec: 2.73608    Inv : 2.7421    Host to Dev: 2.76673    Dev to Host: 2.70228
+Iter: 74
+- Filter 
+    Exec: 2.77299    Host to Dev: 2.77299
+- Signal 
+    Exec: 2.74642    Inv : 2.74191    Host to Dev: 2.78058    Dev to Host: 2.70543
+Iter: 75
+- Filter 
+    Exec: 2.77944    Host to Dev: 2.77944
+- Signal 
+    Exec: 2.74683    Inv : 2.7412    Host to Dev: 2.78265    Dev to Host: 2.71686
+Iter: 76
+- Filter 
+    Exec: 2.77819    Host to Dev: 2.77819
+- Signal 
+    Exec: 2.74618    Inv : 2.74183    Host to Dev: 2.79    Dev to Host: 2.71415
+Iter: 77
+- Filter 
+    Exec: 2.78806    Host to Dev: 2.78806
+- Signal 
+    Exec: 2.74688    Inv : 2.74177    Host to Dev: 2.77179    Dev to Host: 2.6987
+Iter: 78
+- Filter 
+    Exec: 2.77507    Host to Dev: 2.77507
+- Signal 
+    Exec: 2.74662    Inv : 2.74144    Host to Dev: 2.76455    Dev to Host: 2.69703
+Iter: 79
+- Filter 
+    Exec: 2.77396    Host to Dev: 2.77396
+- Signal 
+    Exec: 2.74655    Inv : 2.74105    Host to Dev: 2.75785    Dev to Host: 2.69204
+Iter: 80
+- Filter 
+    Exec: 2.76677    Host to Dev: 2.76677
+- Signal 
+    Exec: 2.74711    Inv : 2.74129    Host to Dev: 2.76078    Dev to Host: 2.68985
+Iter: 81
+- Filter 
+    Exec: 2.77053    Host to Dev: 2.77053
+- Signal 
+    Exec: 2.74614    Inv : 2.7419    Host to Dev: 2.75739    Dev to Host: 2.68778
+Iter: 82
+- Filter 
+    Exec: 2.7671    Host to Dev: 2.7671
+- Signal 
+    Exec: 2.74624    Inv : 2.74478    Host to Dev: 2.75943    Dev to Host: 2.68089
+Iter: 83
+- Filter 
+    Exec: 2.76978    Host to Dev: 2.76978
+- Signal 
+    Exec: 2.73606    Inv : 2.74158    Host to Dev: 2.76463    Dev to Host: 2.68221
+Iter: 84
+- Filter 
+    Exec: 2.77083    Host to Dev: 2.77083
+- Signal 
+    Exec: 2.74665    Inv : 2.74204    Host to Dev: 2.77595    Dev to Host: 2.68277
+Iter: 85
+- Filter 
+    Exec: 2.77366    Host to Dev: 2.77366
+- Signal 
+    Exec: 2.74678    Inv : 2.74303    Host to Dev: 2.77905    Dev to Host: 2.68481
+Iter: 86
+- Filter 
+    Exec: 2.76176    Host to Dev: 2.76176
+- Signal 
+    Exec: 2.74673    Inv : 2.74153    Host to Dev: 2.79112    Dev to Host: 2.68591
+Iter: 87
+- Filter 
+    Exec: 2.78004    Host to Dev: 2.78004
+- Signal 
+    Exec: 2.74635    Inv : 2.74533    Host to Dev: 2.77788    Dev to Host: 2.68602
+Iter: 88
+- Filter 
+    Exec: 2.78156    Host to Dev: 2.78156
+- Signal 
+    Exec: 2.74727    Inv : 2.74111    Host to Dev: 2.77122    Dev to Host: 2.68762
+Iter: 89
+- Filter 
+    Exec: 2.7747    Host to Dev: 2.7747
+- Signal 
+    Exec: 2.74704    Inv : 2.74201    Host to Dev: 2.76133    Dev to Host: 2.68714
+Iter: 90
+- Filter 
+    Exec: 2.76939    Host to Dev: 2.76939
+- Signal 
+    Exec: 2.74605    Inv : 2.74205    Host to Dev: 2.76182    Dev to Host: 2.69457
+Iter: 91
+- Filter 
+    Exec: 2.76756    Host to Dev: 2.76756
+- Signal 
+    Exec: 2.74647    Inv : 2.74122    Host to Dev: 2.75691    Dev to Host: 2.69281
+Iter: 92
+- Filter 
+    Exec: 2.77076    Host to Dev: 2.77076
+- Signal 
+    Exec: 2.74659    Inv : 2.74175    Host to Dev: 2.76305    Dev to Host: 2.69413
+Iter: 93
+- Filter 
+    Exec: 2.76943    Host to Dev: 2.76943
+- Signal 
+    Exec: 2.74631    Inv : 2.74197    Host to Dev: 2.76287    Dev to Host: 2.69832
+Iter: 94
+- Filter 
+    Exec: 2.77345    Host to Dev: 2.77345
+- Signal 
+    Exec: 2.73592    Inv : 2.74158    Host to Dev: 2.76662    Dev to Host: 2.7046
+Iter: 95
+- Filter 
+    Exec: 2.77304    Host to Dev: 2.77304
+- Signal 
+    Exec: 2.74631    Inv : 2.74152    Host to Dev: 2.77101    Dev to Host: 2.70567
+Iter: 96
+- Filter 
+    Exec: 2.77534    Host to Dev: 2.77534
+- Signal 
+    Exec: 2.74675    Inv : 2.74183    Host to Dev: 2.78299    Dev to Host: 2.71478
+Iter: 97
+- Filter 
+    Exec: 2.77778    Host to Dev: 2.77778
+- Signal 
+    Exec: 2.74641    Inv : 2.74169    Host to Dev: 2.78686    Dev to Host: 2.71583
+Iter: 98
+- Filter 
+    Exec: 2.78849    Host to Dev: 2.78849
+- Signal 
+    Exec: 2.74686    Inv : 2.74193    Host to Dev: 2.77627    Dev to Host: 2.701
+Iter: 99
+- Filter 
+    Exec: 2.78105    Host to Dev: 2.78105
+- Signal 
+    Exec: 2.7465    Inv : 2.74133    Host to Dev: 2.76584    Dev to Host: 2.69753
+
+
+MEASUREMENTS in ms
+--------------
+Points                 : 128^3
+Iterations             : 100
+
+FPGA:
+-----
+- Filter:
+  PCIe Host to Device : 2.7764
+  Execution           : 2.74154
+
+- Signal Convolution:
+  PCIe Host to Device : 2.77038
+  FFT + Conv          : 2.74612
+  Inverse FFT         : 2.7419
+  Total Computation   : 5.4838
+  PCIe Device to Host : 2.71877
+
+- Total API Time: 
+  Runtime             : 17.1646
+

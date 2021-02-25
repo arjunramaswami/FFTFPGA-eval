@@ -1,0 +1,536 @@
+
+CONFIGURATION: 
+---------------
+Bitstream    = syn_512_conv3D/conv3D.aocx
+Points       = {512, 512, 512}
+Wisdom Path  = 
+FFTW Plan    = Measure
+Threads      = 1
+Iterations   = 100
+----------------
+
+Number of devices: 2
+ -- Choosing first device
+Iter: 0
+- Filter 
+    Exec: 170.34    Host to Dev: 170.34
+- Signal 
+    Exec: 139.334    Inv : 138.243    Host to Dev: 170.356    Dev to Host: 339.896
+Iter: 1
+- Filter 
+    Exec: 170.084    Host to Dev: 170.084
+- Signal 
+    Exec: 139.346    Inv : 138.235    Host to Dev: 170.031    Dev to Host: 165.898
+Iter: 2
+- Filter 
+    Exec: 170.069    Host to Dev: 170.069
+- Signal 
+    Exec: 139.337    Inv : 138.24    Host to Dev: 169.984    Dev to Host: 166.032
+Iter: 3
+- Filter 
+    Exec: 170.275    Host to Dev: 170.275
+- Signal 
+    Exec: 139.346    Inv : 138.221    Host to Dev: 170.263    Dev to Host: 166.141
+Iter: 4
+- Filter 
+    Exec: 170.286    Host to Dev: 170.286
+- Signal 
+    Exec: 139.34    Inv : 138.235    Host to Dev: 170.469    Dev to Host: 166.146
+Iter: 5
+- Filter 
+    Exec: 170.301    Host to Dev: 170.301
+- Signal 
+    Exec: 139.341    Inv : 138.237    Host to Dev: 170.28    Dev to Host: 166.125
+Iter: 6
+- Filter 
+    Exec: 170.341    Host to Dev: 170.341
+- Signal 
+    Exec: 139.346    Inv : 138.245    Host to Dev: 170.416    Dev to Host: 166.106
+Iter: 7
+- Filter 
+    Exec: 170.203    Host to Dev: 170.203
+- Signal 
+    Exec: 139.337    Inv : 138.226    Host to Dev: 170.304    Dev to Host: 166.166
+Iter: 8
+- Filter 
+    Exec: 170.339    Host to Dev: 170.339
+- Signal 
+    Exec: 139.338    Inv : 138.239    Host to Dev: 170.505    Dev to Host: 166.126
+Iter: 9
+- Filter 
+    Exec: 170.314    Host to Dev: 170.314
+- Signal 
+    Exec: 139.344    Inv : 138.235    Host to Dev: 170.263    Dev to Host: 166.179
+Iter: 10
+- Filter 
+    Exec: 170.062    Host to Dev: 170.062
+- Signal 
+    Exec: 139.343    Inv : 138.231    Host to Dev: 170.247    Dev to Host: 165.961
+Iter: 11
+- Filter 
+    Exec: 170.086    Host to Dev: 170.086
+- Signal 
+    Exec: 139.335    Inv : 138.23    Host to Dev: 169.973    Dev to Host: 166.189
+Iter: 12
+- Filter 
+    Exec: 170.324    Host to Dev: 170.324
+- Signal 
+    Exec: 139.352    Inv : 138.243    Host to Dev: 170.505    Dev to Host: 166.013
+Iter: 13
+- Filter 
+    Exec: 170.291    Host to Dev: 170.291
+- Signal 
+    Exec: 139.345    Inv : 138.23    Host to Dev: 169.964    Dev to Host: 165.767
+Iter: 14
+- Filter 
+    Exec: 170.031    Host to Dev: 170.031
+- Signal 
+    Exec: 139.344    Inv : 138.233    Host to Dev: 170.231    Dev to Host: 165.812
+Iter: 15
+- Filter 
+    Exec: 170.056    Host to Dev: 170.056
+- Signal 
+    Exec: 139.343    Inv : 138.234    Host to Dev: 170.036    Dev to Host: 165.847
+Iter: 16
+- Filter 
+    Exec: 170.283    Host to Dev: 170.283
+- Signal 
+    Exec: 139.344    Inv : 138.224    Host to Dev: 170.485    Dev to Host: 166.021
+Iter: 17
+- Filter 
+    Exec: 170.324    Host to Dev: 170.324
+- Signal 
+    Exec: 139.34    Inv : 138.237    Host to Dev: 170.28    Dev to Host: 166.025
+Iter: 18
+- Filter 
+    Exec: 170.328    Host to Dev: 170.328
+- Signal 
+    Exec: 139.343    Inv : 138.226    Host to Dev: 170.249    Dev to Host: 166.014
+Iter: 19
+- Filter 
+    Exec: 170.325    Host to Dev: 170.325
+- Signal 
+    Exec: 139.34    Inv : 138.233    Host to Dev: 170.209    Dev to Host: 165.825
+Iter: 20
+- Filter 
+    Exec: 170.064    Host to Dev: 170.064
+- Signal 
+    Exec: 139.335    Inv : 138.235    Host to Dev: 170.5    Dev to Host: 166.064
+Iter: 21
+- Filter 
+    Exec: 170.328    Host to Dev: 170.328
+- Signal 
+    Exec: 139.342    Inv : 138.246    Host to Dev: 170.279    Dev to Host: 166.042
+Iter: 22
+- Filter 
+    Exec: 170.258    Host to Dev: 170.258
+- Signal 
+    Exec: 139.339    Inv : 138.234    Host to Dev: 170.363    Dev to Host: 166.033
+Iter: 23
+- Filter 
+    Exec: 170.036    Host to Dev: 170.036
+- Signal 
+    Exec: 139.347    Inv : 138.22    Host to Dev: 169.986    Dev to Host: 165.805
+Iter: 24
+- Filter 
+    Exec: 170.037    Host to Dev: 170.037
+- Signal 
+    Exec: 139.34    Inv : 138.238    Host to Dev: 170.253    Dev to Host: 166.092
+Iter: 25
+- Filter 
+    Exec: 170.286    Host to Dev: 170.286
+- Signal 
+    Exec: 139.34    Inv : 138.226    Host to Dev: 170.228    Dev to Host: 166.053
+Iter: 26
+- Filter 
+    Exec: 170.217    Host to Dev: 170.217
+- Signal 
+    Exec: 139.338    Inv : 138.23    Host to Dev: 170.334    Dev to Host: 166.025
+Iter: 27
+- Filter 
+    Exec: 170.28    Host to Dev: 170.28
+- Signal 
+    Exec: 139.347    Inv : 138.229    Host to Dev: 170.228    Dev to Host: 166.064
+Iter: 28
+- Filter 
+    Exec: 170.269    Host to Dev: 170.269
+- Signal 
+    Exec: 139.347    Inv : 138.239    Host to Dev: 170.436    Dev to Host: 165.931
+Iter: 29
+- Filter 
+    Exec: 170.303    Host to Dev: 170.303
+- Signal 
+    Exec: 139.344    Inv : 138.236    Host to Dev: 170.312    Dev to Host: 166.136
+Iter: 30
+- Filter 
+    Exec: 170.292    Host to Dev: 170.292
+- Signal 
+    Exec: 139.343    Inv : 138.236    Host to Dev: 170.37    Dev to Host: 166.068
+Iter: 31
+- Filter 
+    Exec: 170.356    Host to Dev: 170.356
+- Signal 
+    Exec: 139.345    Inv : 138.231    Host to Dev: 170.265    Dev to Host: 166.078
+Iter: 32
+- Filter 
+    Exec: 170.303    Host to Dev: 170.303
+- Signal 
+    Exec: 139.334    Inv : 138.223    Host to Dev: 170.523    Dev to Host: 165.842
+Iter: 33
+- Filter 
+    Exec: 170.085    Host to Dev: 170.085
+- Signal 
+    Exec: 139.342    Inv : 138.225    Host to Dev: 170.28    Dev to Host: 166.111
+Iter: 34
+- Filter 
+    Exec: 170.355    Host to Dev: 170.355
+- Signal 
+    Exec: 139.342    Inv : 138.246    Host to Dev: 170.263    Dev to Host: 166.073
+Iter: 35
+- Filter 
+    Exec: 170.297    Host to Dev: 170.297
+- Signal 
+    Exec: 139.347    Inv : 138.231    Host to Dev: 170.239    Dev to Host: 166.062
+Iter: 36
+- Filter 
+    Exec: 170.27    Host to Dev: 170.27
+- Signal 
+    Exec: 139.337    Inv : 138.236    Host to Dev: 170.456    Dev to Host: 166.031
+Iter: 37
+- Filter 
+    Exec: 170.119    Host to Dev: 170.119
+- Signal 
+    Exec: 139.336    Inv : 138.224    Host to Dev: 170.014    Dev to Host: 166.041
+Iter: 38
+- Filter 
+    Exec: 170.326    Host to Dev: 170.326
+- Signal 
+    Exec: 139.342    Inv : 138.234    Host to Dev: 170.377    Dev to Host: 166.039
+Iter: 39
+- Filter 
+    Exec: 170.322    Host to Dev: 170.322
+- Signal 
+    Exec: 139.346    Inv : 138.231    Host to Dev: 170.27    Dev to Host: 166.067
+Iter: 40
+- Filter 
+    Exec: 170.308    Host to Dev: 170.308
+- Signal 
+    Exec: 139.334    Inv : 138.232    Host to Dev: 170.48    Dev to Host: 166.018
+Iter: 41
+- Filter 
+    Exec: 170.257    Host to Dev: 170.257
+- Signal 
+    Exec: 139.344    Inv : 138.237    Host to Dev: 170.055    Dev to Host: 165.942
+Iter: 42
+- Filter 
+    Exec: 170.288    Host to Dev: 170.288
+- Signal 
+    Exec: 139.344    Inv : 138.225    Host to Dev: 170.427    Dev to Host: 166.058
+Iter: 43
+- Filter 
+    Exec: 170.275    Host to Dev: 170.275
+- Signal 
+    Exec: 139.336    Inv : 138.246    Host to Dev: 170.2    Dev to Host: 166.065
+Iter: 44
+- Filter 
+    Exec: 170.383    Host to Dev: 170.383
+- Signal 
+    Exec: 139.344    Inv : 138.24    Host to Dev: 170.477    Dev to Host: 166.061
+Iter: 45
+- Filter 
+    Exec: 170.272    Host to Dev: 170.272
+- Signal 
+    Exec: 139.341    Inv : 138.231    Host to Dev: 170.217    Dev to Host: 165.874
+Iter: 46
+- Filter 
+    Exec: 170.083    Host to Dev: 170.083
+- Signal 
+    Exec: 139.333    Inv : 138.231    Host to Dev: 170.393    Dev to Host: 166.077
+Iter: 47
+- Filter 
+    Exec: 170.269    Host to Dev: 170.269
+- Signal 
+    Exec: 139.342    Inv : 138.235    Host to Dev: 170.274    Dev to Host: 166.102
+Iter: 48
+- Filter 
+    Exec: 170.279    Host to Dev: 170.279
+- Signal 
+    Exec: 139.337    Inv : 138.235    Host to Dev: 170.465    Dev to Host: 166.116
+Iter: 49
+- Filter 
+    Exec: 170.331    Host to Dev: 170.331
+- Signal 
+    Exec: 139.341    Inv : 138.233    Host to Dev: 170.273    Dev to Host: 166.103
+Iter: 50
+- Filter 
+    Exec: 170.429    Host to Dev: 170.429
+- Signal 
+    Exec: 139.335    Inv : 138.238    Host to Dev: 170.174    Dev to Host: 166.12
+Iter: 51
+- Filter 
+    Exec: 170.361    Host to Dev: 170.361
+- Signal 
+    Exec: 139.348    Inv : 138.233    Host to Dev: 170.251    Dev to Host: 166.074
+Iter: 52
+- Filter 
+    Exec: 170.291    Host to Dev: 170.291
+- Signal 
+    Exec: 139.347    Inv : 138.241    Host to Dev: 170.484    Dev to Host: 166.046
+Iter: 53
+- Filter 
+    Exec: 170.266    Host to Dev: 170.266
+- Signal 
+    Exec: 139.345    Inv : 138.233    Host to Dev: 169.991    Dev to Host: 165.827
+Iter: 54
+- Filter 
+    Exec: 170.049    Host to Dev: 170.049
+- Signal 
+    Exec: 139.349    Inv : 138.234    Host to Dev: 170.161    Dev to Host: 165.982
+Iter: 55
+- Filter 
+    Exec: 170.287    Host to Dev: 170.287
+- Signal 
+    Exec: 139.345    Inv : 138.223    Host to Dev: 170.257    Dev to Host: 166.061
+Iter: 56
+- Filter 
+    Exec: 170.297    Host to Dev: 170.297
+- Signal 
+    Exec: 139.346    Inv : 138.245    Host to Dev: 170.479    Dev to Host: 166.082
+Iter: 57
+- Filter 
+    Exec: 170.321    Host to Dev: 170.321
+- Signal 
+    Exec: 139.333    Inv : 138.227    Host to Dev: 170.285    Dev to Host: 166.087
+Iter: 58
+- Filter 
+    Exec: 170.304    Host to Dev: 170.304
+- Signal 
+    Exec: 139.341    Inv : 138.233    Host to Dev: 170.326    Dev to Host: 165.825
+Iter: 59
+- Filter 
+    Exec: 170.095    Host to Dev: 170.095
+- Signal 
+    Exec: 139.337    Inv : 138.226    Host to Dev: 170.253    Dev to Host: 166.103
+Iter: 60
+- Filter 
+    Exec: 170.325    Host to Dev: 170.325
+- Signal 
+    Exec: 139.336    Inv : 138.242    Host to Dev: 170.501    Dev to Host: 166.053
+Iter: 61
+- Filter 
+    Exec: 170.291    Host to Dev: 170.291
+- Signal 
+    Exec: 139.351    Inv : 138.229    Host to Dev: 170.252    Dev to Host: 166.057
+Iter: 62
+- Filter 
+    Exec: 170.075    Host to Dev: 170.075
+- Signal 
+    Exec: 139.343    Inv : 138.233    Host to Dev: 170.174    Dev to Host: 165.853
+Iter: 63
+- Filter 
+    Exec: 170.052    Host to Dev: 170.052
+- Signal 
+    Exec: 139.341    Inv : 138.233    Host to Dev: 169.999    Dev to Host: 166.084
+Iter: 64
+- Filter 
+    Exec: 170.3    Host to Dev: 170.3
+- Signal 
+    Exec: 139.341    Inv : 138.229    Host to Dev: 170.478    Dev to Host: 166.049
+Iter: 65
+- Filter 
+    Exec: 170.283    Host to Dev: 170.283
+- Signal 
+    Exec: 139.343    Inv : 138.235    Host to Dev: 170.05    Dev to Host: 165.803
+Iter: 66
+- Filter 
+    Exec: 170.017    Host to Dev: 170.017
+- Signal 
+    Exec: 139.339    Inv : 138.236    Host to Dev: 169.987    Dev to Host: 165.856
+Iter: 67
+- Filter 
+    Exec: 170.019    Host to Dev: 170.019
+- Signal 
+    Exec: 139.338    Inv : 138.231    Host to Dev: 169.995    Dev to Host: 166.008
+Iter: 68
+- Filter 
+    Exec: 170.275    Host to Dev: 170.275
+- Signal 
+    Exec: 139.335    Inv : 138.223    Host to Dev: 170.404    Dev to Host: 166.042
+Iter: 69
+- Filter 
+    Exec: 170.26    Host to Dev: 170.26
+- Signal 
+    Exec: 139.342    Inv : 138.232    Host to Dev: 170.241    Dev to Host: 166.089
+Iter: 70
+- Filter 
+    Exec: 170.302    Host to Dev: 170.302
+- Signal 
+    Exec: 139.345    Inv : 138.228    Host to Dev: 170.363    Dev to Host: 166.064
+Iter: 71
+- Filter 
+    Exec: 170.3    Host to Dev: 170.3
+- Signal 
+    Exec: 139.345    Inv : 138.228    Host to Dev: 170.236    Dev to Host: 166.062
+Iter: 72
+- Filter 
+    Exec: 170.2    Host to Dev: 170.2
+- Signal 
+    Exec: 139.34    Inv : 138.244    Host to Dev: 170.452    Dev to Host: 166.075
+Iter: 73
+- Filter 
+    Exec: 170.357    Host to Dev: 170.357
+- Signal 
+    Exec: 139.328    Inv : 138.218    Host to Dev: 170.253    Dev to Host: 166.113
+Iter: 74
+- Filter 
+    Exec: 170.302    Host to Dev: 170.302
+- Signal 
+    Exec: 139.342    Inv : 138.231    Host to Dev: 170.442    Dev to Host: 166.059
+Iter: 75
+- Filter 
+    Exec: 170.306    Host to Dev: 170.306
+- Signal 
+    Exec: 139.345    Inv : 138.229    Host to Dev: 170.252    Dev to Host: 166.055
+Iter: 76
+- Filter 
+    Exec: 170.312    Host to Dev: 170.312
+- Signal 
+    Exec: 139.34    Inv : 138.226    Host to Dev: 170.397    Dev to Host: 166.135
+Iter: 77
+- Filter 
+    Exec: 170.357    Host to Dev: 170.357
+- Signal 
+    Exec: 139.344    Inv : 138.238    Host to Dev: 170.264    Dev to Host: 166.053
+Iter: 78
+- Filter 
+    Exec: 170.275    Host to Dev: 170.275
+- Signal 
+    Exec: 139.342    Inv : 138.226    Host to Dev: 170.163    Dev to Host: 165.855
+Iter: 79
+- Filter 
+    Exec: 170.043    Host to Dev: 170.043
+- Signal 
+    Exec: 139.337    Inv : 138.233    Host to Dev: 169.995    Dev to Host: 165.832
+Iter: 80
+- Filter 
+    Exec: 170.051    Host to Dev: 170.051
+- Signal 
+    Exec: 139.329    Inv : 138.235    Host to Dev: 170.24    Dev to Host: 166.043
+Iter: 81
+- Filter 
+    Exec: 170.315    Host to Dev: 170.315
+- Signal 
+    Exec: 139.343    Inv : 138.229    Host to Dev: 170.236    Dev to Host: 166.059
+Iter: 82
+- Filter 
+    Exec: 170.302    Host to Dev: 170.302
+- Signal 
+    Exec: 139.339    Inv : 138.236    Host to Dev: 170.262    Dev to Host: 166.061
+Iter: 83
+- Filter 
+    Exec: 170.359    Host to Dev: 170.359
+- Signal 
+    Exec: 139.334    Inv : 138.236    Host to Dev: 170.297    Dev to Host: 166.076
+Iter: 84
+- Filter 
+    Exec: 170.291    Host to Dev: 170.291
+- Signal 
+    Exec: 139.342    Inv : 138.233    Host to Dev: 170.541    Dev to Host: 165.884
+Iter: 85
+- Filter 
+    Exec: 170.122    Host to Dev: 170.122
+- Signal 
+    Exec: 139.34    Inv : 138.23    Host to Dev: 170.278    Dev to Host: 166.051
+Iter: 86
+- Filter 
+    Exec: 170.284    Host to Dev: 170.284
+- Signal 
+    Exec: 139.332    Inv : 138.231    Host to Dev: 170.355    Dev to Host: 166.047
+Iter: 87
+- Filter 
+    Exec: 170.275    Host to Dev: 170.275
+- Signal 
+    Exec: 139.344    Inv : 138.238    Host to Dev: 170.241    Dev to Host: 166.068
+Iter: 88
+- Filter 
+    Exec: 170.158    Host to Dev: 170.158
+- Signal 
+    Exec: 139.331    Inv : 138.228    Host to Dev: 170.279    Dev to Host: 165.897
+Iter: 89
+- Filter 
+    Exec: 170.075    Host to Dev: 170.075
+- Signal 
+    Exec: 139.339    Inv : 138.236    Host to Dev: 170.046    Dev to Host: 166.08
+Iter: 90
+- Filter 
+    Exec: 170.283    Host to Dev: 170.283
+- Signal 
+    Exec: 139.347    Inv : 138.225    Host to Dev: 170.357    Dev to Host: 166.111
+Iter: 91
+- Filter 
+    Exec: 170.313    Host to Dev: 170.313
+- Signal 
+    Exec: 139.336    Inv : 138.246    Host to Dev: 170.253    Dev to Host: 166.085
+Iter: 92
+- Filter 
+    Exec: 170.334    Host to Dev: 170.334
+- Signal 
+    Exec: 139.339    Inv : 138.233    Host to Dev: 170.524    Dev to Host: 166.097
+Iter: 93
+- Filter 
+    Exec: 170.335    Host to Dev: 170.335
+- Signal 
+    Exec: 139.34    Inv : 138.238    Host to Dev: 170.294    Dev to Host: 166.115
+Iter: 94
+- Filter 
+    Exec: 170.356    Host to Dev: 170.356
+- Signal 
+    Exec: 139.337    Inv : 138.23    Host to Dev: 170.362    Dev to Host: 166.049
+Iter: 95
+- Filter 
+    Exec: 170.314    Host to Dev: 170.314
+- Signal 
+    Exec: 139.343    Inv : 138.228    Host to Dev: 170.212    Dev to Host: 166.072
+Iter: 96
+- Filter 
+    Exec: 170.305    Host to Dev: 170.305
+- Signal 
+    Exec: 139.344    Inv : 138.239    Host to Dev: 170.589    Dev to Host: 166.082
+Iter: 97
+- Filter 
+    Exec: 170.32    Host to Dev: 170.32
+- Signal 
+    Exec: 139.337    Inv : 138.219    Host to Dev: 170.255    Dev to Host: 165.865
+Iter: 98
+- Filter 
+    Exec: 170.12    Host to Dev: 170.12
+- Signal 
+    Exec: 139.335    Inv : 138.229    Host to Dev: 170.281    Dev to Host: 166.05
+Iter: 99
+- Filter 
+    Exec: 170.303    Host to Dev: 170.303
+- Signal 
+    Exec: 139.343    Inv : 138.229    Host to Dev: 170.273    Dev to Host: 166.065
+
+
+MEASUREMENTS in ms
+--------------
+Points                 : 512^3
+Iterations             : 100
+
+FPGA:
+-----
+- Filter:
+  PCIe Host to Device : 170.248
+  Execution           : 138.249
+
+- Signal Convolution:
+  PCIe Host to Device : 170.28
+  FFT + Conv          : 139.341
+  Inverse FFT         : 138.233
+  Total Computation   : 276.466
+  PCIe Device to Host : 167.766
+
+- Total API Time: 
+  Runtime             : 926.405
+
