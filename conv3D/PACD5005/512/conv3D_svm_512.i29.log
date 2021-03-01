@@ -1,0 +1,184 @@
+
+CONFIGURATION: 
+---------------
+Bitstream    = syn_512_conv3D_svm2/conv3D_svm2.aocx
+Points       = {512, 512, 512}
+Wisdom Path  = 
+FFTW Plan    = Estimate
+Threads      = 1
+Iterations   = 29
+----------------
+
+Num of Platforms found - 3
+  0 - intel(r) fpga emulation platform for opencl(tm) 
+  1 - intel(r) fpga sdk for opencl(tm) 
+Number of devices: 1
+ -- Choosing first device
+ -- Found Coarse Grained Buffer SVM capability
+ -- Supports SVM 
+Iter: 0
+- Filter 
+    Exec: 158.622    Host to Dev: 0
+- Signal 
+    Exec: 158.617    Inv : 148.278    Host to Dev: 0    Dev to Host: 0
+Iter: 1
+- Filter 
+    Exec: 158.619    Host to Dev: 0
+- Signal 
+    Exec: 158.614    Inv : 148.278    Host to Dev: 0    Dev to Host: 0
+Iter: 2
+- Filter 
+    Exec: 158.619    Host to Dev: 0
+- Signal 
+    Exec: 158.614    Inv : 148.281    Host to Dev: 0    Dev to Host: 0
+Iter: 3
+- Filter 
+    Exec: 158.621    Host to Dev: 0
+- Signal 
+    Exec: 158.616    Inv : 148.29    Host to Dev: 0    Dev to Host: 0
+Iter: 4
+- Filter 
+    Exec: 158.62    Host to Dev: 0
+- Signal 
+    Exec: 158.616    Inv : 148.285    Host to Dev: 0    Dev to Host: 0
+Iter: 5
+- Filter 
+    Exec: 158.621    Host to Dev: 0
+- Signal 
+    Exec: 158.621    Inv : 148.27    Host to Dev: 0    Dev to Host: 0
+Iter: 6
+- Filter 
+    Exec: 158.62    Host to Dev: 0
+- Signal 
+    Exec: 158.62    Inv : 148.27    Host to Dev: 0    Dev to Host: 0
+Iter: 7
+- Filter 
+    Exec: 158.621    Host to Dev: 0
+- Signal 
+    Exec: 158.621    Inv : 148.275    Host to Dev: 0    Dev to Host: 0
+Iter: 8
+- Filter 
+    Exec: 158.621    Host to Dev: 0
+- Signal 
+    Exec: 158.616    Inv : 148.28    Host to Dev: 0    Dev to Host: 0
+Iter: 9
+- Filter 
+    Exec: 158.621    Host to Dev: 0
+- Signal 
+    Exec: 158.623    Inv : 148.273    Host to Dev: 0    Dev to Host: 0
+Iter: 10
+- Filter 
+    Exec: 158.619    Host to Dev: 0
+- Signal 
+    Exec: 158.617    Inv : 148.282    Host to Dev: 0    Dev to Host: 0
+Iter: 11
+- Filter 
+    Exec: 158.622    Host to Dev: 0
+- Signal 
+    Exec: 158.615    Inv : 148.273    Host to Dev: 0    Dev to Host: 0
+Iter: 12
+- Filter 
+    Exec: 158.62    Host to Dev: 0
+- Signal 
+    Exec: 158.621    Inv : 148.279    Host to Dev: 0    Dev to Host: 0
+Iter: 13
+- Filter 
+    Exec: 158.62    Host to Dev: 0
+- Signal 
+    Exec: 158.619    Inv : 148.264    Host to Dev: 0    Dev to Host: 0
+Iter: 14
+- Filter 
+    Exec: 158.619    Host to Dev: 0
+- Signal 
+    Exec: 158.62    Inv : 148.265    Host to Dev: 0    Dev to Host: 0
+Iter: 15
+- Filter 
+    Exec: 158.619    Host to Dev: 0
+- Signal 
+    Exec: 158.622    Inv : 148.28    Host to Dev: 0    Dev to Host: 0
+Iter: 16
+- Filter 
+    Exec: 158.619    Host to Dev: 0
+- Signal 
+    Exec: 158.622    Inv : 148.277    Host to Dev: 0    Dev to Host: 0
+Iter: 17
+- Filter 
+    Exec: 158.618    Host to Dev: 0
+- Signal 
+    Exec: 158.621    Inv : 148.275    Host to Dev: 0    Dev to Host: 0
+Iter: 18
+- Filter 
+    Exec: 158.618    Host to Dev: 0
+- Signal 
+    Exec: 158.615    Inv : 148.289    Host to Dev: 0    Dev to Host: 0
+Iter: 19
+- Filter 
+    Exec: 158.62    Host to Dev: 0
+- Signal 
+    Exec: 158.616    Inv : 148.276    Host to Dev: 0    Dev to Host: 0
+Iter: 20
+- Filter 
+    Exec: 158.619    Host to Dev: 0
+- Signal 
+    Exec: 158.619    Inv : 148.275    Host to Dev: 0    Dev to Host: 0
+Iter: 21
+- Filter 
+    Exec: 158.617    Host to Dev: 0
+- Signal 
+    Exec: 158.617    Inv : 148.267    Host to Dev: 0    Dev to Host: 0
+Iter: 22
+- Filter 
+    Exec: 158.618    Host to Dev: 0
+- Signal 
+    Exec: 158.617    Inv : 148.29    Host to Dev: 0    Dev to Host: 0
+Iter: 23
+- Filter 
+    Exec: 158.621    Host to Dev: 0
+- Signal 
+    Exec: 158.62    Inv : 148.288    Host to Dev: 0    Dev to Host: 0
+Iter: 24
+- Filter 
+    Exec: 158.62    Host to Dev: 0
+- Signal 
+    Exec: 158.622    Inv : 148.269    Host to Dev: 0    Dev to Host: 0
+Iter: 25
+- Filter 
+    Exec: 158.622    Host to Dev: 0
+- Signal 
+    Exec: 158.615    Inv : 148.267    Host to Dev: 0    Dev to Host: 0
+Iter: 26
+- Filter 
+    Exec: 158.62    Host to Dev: 0
+- Signal 
+    Exec: 158.617    Inv : 148.279    Host to Dev: 0    Dev to Host: 0
+Iter: 27
+- Filter 
+    Exec: 158.62    Host to Dev: 0
+- Signal 
+    Exec: 158.622    Inv : 148.27    Host to Dev: 0    Dev to Host: 0
+Iter: 28
+- Filter 
+    Exec: 158.62    Host to Dev: 0
+- Signal 
+    Exec: 158.622    Inv : 148.277    Host to Dev: 0    Dev to Host: 0
+
+
+MEASUREMENTS in ms
+--------------
+Points                 : 512^3
+Iterations             : 29
+
+Using SVM
+FPGA:
+-----
+- Filter:
+  Execution           : 158.62
+
+- Signal Convolution:
+  FFT + Conv          : 158.618
+  Inverse FFT         : 148.277
+  Total Computation   : 296.553
+
+- Total API Time: 
+  Runtime             : 2613.98
+
