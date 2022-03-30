@@ -1,0 +1,98 @@
+ DBCSR| CPU Multiplication driver                                           XSMM
+ DBCSR| Multrec recursion limit                                              512
+ DBCSR| Multiplication stack size                                           1000
+ DBCSR| Maximum elements for images                                    UNLIMITED
+ DBCSR| Multiplicative factor virtual images                                   1
+ DBCSR| Use multiplication densification                                       T
+ DBCSR| Multiplication size stacks                                             3
+ DBCSR| Use memory pool for CPU allocation                                     F
+ DBCSR| Number of 3D layers                                               SINGLE
+ DBCSR| Use MPI memory allocation                                              F
+ DBCSR| Use RMA algorithm                                                      F
+ DBCSR| Use Communication thread                                               T
+ DBCSR| Communication thread load                                             83
+ DBCSR| MPI: My node id                                                        0
+ DBCSR| MPI: Number of nodes                                                   1
+ DBCSR| OMP: Current number of threads                                         2
+ DBCSR| OMP: Max number of threads                                             2
+ DBCSR| Split modifier for TAS multiplication algorithm                  1.0E+00
+
+
+  **** **** ******  **  PROGRAM STARTED AT               2021-06-10 20:47:33.300
+ ***** ** ***  *** **   PROGRAM STARTED ON                               cn-0252
+ **    ****   ******    PROGRAM STARTED BY                                arjunr
+ ***** **    ** ** **   PROGRAM PROCESS ID                                232160
+  **** **  *******  **  PROGRAM STARTED IN /upb/scratch/departments/pc2/groups/p
+                                           c2-mitarbeiter/arjunr/opencl/eval/cp2
+                                           k/min_example
+
+ CP2K| version string:                                          CP2K version 8.1
+ CP2K| source code revision number:                                  git:0b61f2f
+ CP2K| cp2kflags: omp libint fftw3 libxc elpa parallel mpi3 scalapack xsmm spgli
+ CP2K|            b libvori libbqb
+ CP2K| is freely available from                            https://www.cp2k.org/
+ CP2K| Program compiled at                          Fr 7. Mai 12:31:54 CEST 2021
+ CP2K| Program compiled on                                               ln-0001
+ CP2K| Program compiled for                                                local
+ CP2K| Data directory path    /cm/shared/apps/pc2/CHEM_PHYS_SW/CP2K/RELEASE/8.1_
+ CP2K| Input file name                                   input_files/h2o_512.inp
+
+ GLOBAL| Force Environment number                                              1
+ GLOBAL| Basis set file name                                           BASIS_SET
+ GLOBAL| Potential file name                                           POTENTIAL
+ GLOBAL| MM Potential file name                                     MM_POTENTIAL
+ GLOBAL| Coordinate file name                                      __STD_INPUT__
+ GLOBAL| Method name                                                        CP2K
+ GLOBAL| Project name                                                    H2O-FFT
+ GLOBAL| Preferred FFT library                                             FFTW3
+ GLOBAL| Preferred diagonalization lib.                                     ELPA
+ GLOBAL| Run type                                                         ENERGY
+ GLOBAL| All-to-all communication in single precision                          F
+ GLOBAL| FFTs using library dependent lengths                                  F
+ GLOBAL| Global print level                                                  LOW
+ GLOBAL| MPI I/O enabled                                                       T
+ GLOBAL| Total number of message passing processes                             1
+ GLOBAL| Number of threads for this process                                    2
+ GLOBAL| This output is from process                                           0
+ GLOBAL| CPU model name                 Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz
+ GLOBAL| CPUID                                                              1003
+
+ MEMORY| system memory details [Kb]
+ MEMORY|                        rank 0           min           max       average
+ MEMORY| MemTotal            196712344     196712344     196712344     196712344
+ MEMORY| MemFree             175566820     175566820     175566820     175566820
+ MEMORY| Buffers                     0             0             0             0
+ MEMORY| Cached               12149924      12149924      12149924      12149924
+ MEMORY| Slab                  1501892       1501892       1501892       1501892
+ MEMORY| SReclaimable           304600        304600        304600        304600
+ MEMORY| MemLikelyFree       188021344     188021344     188021344     188021344
+
+
+ GENERATE|  Preliminary Number of Bonds generated:                             0
+ GENERATE|  Achieved consistency in connectivity generation.
+
+ *******************************************************************************
+ *******************************************************************************
+ **                                                                           **
+ **     #####                         ##              ##                      **
+ **    ##   ##            ##          ##              ##                      **
+ **   ##     ##                       ##            ######                    **
+ **   ##     ##  ##   ##  ##   #####  ##  ##   ####   ##    #####    #####    **
+ **   ##     ##  ##   ##  ##  ##      ## ##   ##      ##   ##   ##  ##   ##   **
+ **   ##  ## ##  ##   ##  ##  ##      ####     ###    ##   ######   ######    **
+ **    ##  ###   ##   ##  ##  ##      ## ##      ##   ##   ##       ##        **
+ **     #######   #####   ##   #####  ##  ##  ####    ##    #####   ##        **
+ **           ##                                                    ##        **
+ **                                                                           **
+ **                                                ... make the atoms dance   **
+ **                                                                           **
+ **            Copyright (C) by CP2K developers group (2000 - 2020)           **
+ **                      J. Chem. Phys. 152, 194103 (2020)                    **
+ **                                                                           **
+ *******************************************************************************
+
+
+ TOTAL NUMBERS AND MAXIMUM NUMBERS
+
+  Total number of            - Atomic kinds:                                   2
+                             - Atoms:                                          3
